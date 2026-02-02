@@ -327,10 +327,7 @@ namespace Baobab {
 
             toast (_("Killed process %d").printf (pid));
 
-            uint position = 0;
-            if (results.parent != null && results.parent.children_list_store.find (results, out position)) {
-                results.parent.children_list_store.remove (position);
-            }
+            on_reload_activate ();
         }
 
         bool columnview_selection_find (Object? item, bool passthrough, out uint position) {
