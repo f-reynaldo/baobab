@@ -86,10 +86,11 @@ namespace Baobab {
                 });
             }
 
-            var button_row = new Adw.ButtonRow ();
+            var button_row = new Adw.ActionRow ();
 
             button_row.title = (_("_Add Location"));
-            button_row.start_icon_name = ("list-add-symbolic");
+            button_row.add_prefix (new Gtk.Image.from_icon_name ("list-add-symbolic"));
+            button_row.activatable = true;
             button_row.use_underline = true;
 
             excluded_list_box.append (button_row);
