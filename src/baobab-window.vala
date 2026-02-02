@@ -63,7 +63,7 @@ namespace Baobab {
         [GtkChild]
         private unowned Chart treemap_chart;
         [GtkChild]
-        private unowned Adw.Spinner spinner;
+        private unowned Gtk.Spinner spinner;
 
         private Scanner.Results? clicked_item = null;
 
