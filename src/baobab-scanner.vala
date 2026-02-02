@@ -244,6 +244,34 @@ namespace Baobab {
         }
 
 
+        string get_process_display_name (string pid, string comm) {
+            string cmdline_content;
+            try {
+                if (FileUtils.get_contents ("/proc/%s/cmdline".printf (pid), out cmdline_content)) {
+                    string[] args = cmdline_content.split ("\0");
+                    string info = "";
+
+                    for (int i = 1; i < args.length; i++) {
+                        if (args[i] == "" || args[i].has_prefix ("-")) continue;
+                        // Some arguments are long paths, take the basename
+                        string arg = args[i];
+                        if (arg.contains ("/")) {
+                            arg = Path.get_basename (arg);
+                        }
+                        if (arg != "" && arg != comm) {
+                            info = arg;
+                            break;
+                        }
+                    }
+
+                    if (info != "") {
+                        return "%s [%s]".printf (comm, info);
+                    }
+                }
+            } catch (Error e) {}
+            return comm;
+        }
+
         void compute_sizes (Results res, HashTable<string, Results> process_map) {
             foreach (var child in process_map.get_values ()) {
                 if (child.parent == res) {
@@ -294,7 +322,8 @@ namespace Baobab {
                                     }
                                 }
 
-                                var res = new Results.for_process (name, comm, rss, uint64.parse(ppid), null);
+                                string display_name = get_process_display_name (name, comm);
+                                var res = new Results.for_process (name, display_name, rss, uint64.parse(ppid), null);
                                 process_map.insert (name, res);
                                 ppid_map.insert (name, ppid);
                             }
