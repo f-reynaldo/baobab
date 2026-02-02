@@ -228,18 +228,7 @@ namespace Baobab {
         }
 
         void populate () {
-            locations.append (new Location.for_home_folder ());
-            locations.append (new Location.for_main_volume ());
-
-            foreach (var volume in monitor.get_volumes ()) {
-                volume_added (volume);
-            }
-
-            foreach (var mount in monitor.get_mounts ()) {
-                mount_added (mount);
-            }
-
-            populate_recent ();
+            locations.append (new Location.for_system_memory ());
 
             update ();
         }

@@ -25,11 +25,11 @@ namespace Baobab {
         public Scanner.Results? item { set; get; }
 
         [GtkCallback]
-        private string format_time_approximate_cb (uint64 time) {
-            if (item == null)
+        private string format_pid_cb (uint64 pid) {
+            if (item == null || pid == 0)
                 return "";
 
-            return format_time_approximate (time);
+            return pid.to_string();
         }
     }
 }
