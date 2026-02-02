@@ -178,26 +178,7 @@ namespace Baobab {
         }
 
         void on_scan_folder_activate () {
-            var file_chooser = new Gtk.FileChooserNative (_("Select Folder"), this,
-                                                          Gtk.FileChooserAction.SELECT_FOLDER,
-                                                          null, null);
-
-            file_chooser.modal = true;
-
-            file_chooser.add_choice ("recurse",
-                                    _("Recursively analyze mount points"),
-                                    null, null);
-
-            file_chooser.response.connect ((response) => {
-                if (response == Gtk.ResponseType.ACCEPT) {
-                    bool recurse = bool.parse (file_chooser.get_choice ("recurse"));
-                    var flags = recurse ? ScanFlags.NONE : ScanFlags.EXCLUDE_MOUNTS;
-                    scan_directory (file_chooser.get_file (), flags);
-                }
-                file_chooser.destroy ();
-            });
-
-            file_chooser.show ();
+            // Disabled for Memory Usage Analyzer
         }
 
         void location_activated (Location location) {
@@ -259,7 +240,7 @@ namespace Baobab {
                                      "Copyright \xc2\xa9 2011-2012 Ryan Lortie, Paolo Borelli, Stefano Facchini\n";
 
             var about = new Adw.AboutDialog() {
-                application_name = _("Disk Usage Analyzer"),
+                application_name = _("Memory Usage Analyzer"),
                 application_icon = "org.gnome.baobab",
                 developer_name = _("The GNOME Project"),
                 version = Config.VERSION,
@@ -323,36 +304,31 @@ namespace Baobab {
         }
 
         public void open_item (Scanner.Results results) {
-            var file = active_location.scanner.get_file (results);
-            try {
-                AppInfo.launch_default_for_uri (file.get_uri (), null);
-            } catch (Error e) {
-                warning ("Failed to open file: %s\n", e.message);
-                toast (_("Failed to open file"));
-            }
+            // Disabled for Memory Usage Analyzer
         }
 
         public void copy_path (Scanner.Results results) {
-            var parse_name = active_location.scanner.get_file (results).get_parse_name ();
             var clipboard = get_clipboard ();
-            clipboard.set_text (parse_name);
+            clipboard.set_text (results.name);
         }
 
         public void trash_file (Scanner.Results results) {
-            var file = active_location.scanner.get_file (results);
-            try {
-                file.trash ();
-            } catch (Error e) {
-                if (!e.matches (GLib.IOError.quark (), GLib.IOError.NOT_FOUND)) {
-                    warning ("Failed to move to file to the trash: %s", e.message);
-                    toast (_("Failed to trash file"));
-                    return;
-                }
+            int pid = int.parse (results.name);
+            if (pid <= 1) {
+                toast (_("Cannot kill system process"));
+                return;
             }
 
-            var parent = results.parent;
+            if (Posix.kill (pid, Posix.Signal.TERM) != 0) {
+                warning ("Failed to kill process %d: %s", pid, Posix.strerror (Posix.errno));
+                toast (_("Failed to kill process"));
+                return;
+            }
+
+            toast (_("Killed process %d").printf (pid));
+
             uint position = 0;
-            if (results.parent.children_list_store.find (results, out position)) {
+            if (results.parent != null && results.parent.children_list_store.find (results, out position)) {
                 results.parent.children_list_store.remove (position);
             }
         }
@@ -581,7 +557,7 @@ namespace Baobab {
             if (child == home_page) {
                 var action = lookup_action ("reload") as SimpleAction;
                 action.set_enabled (false);
-                this.title = _("Devices & Locations");
+                this.title = _("System Memory");
                 nav_view.pop ();
             } else {
                 var action = lookup_action ("reload") as SimpleAction;

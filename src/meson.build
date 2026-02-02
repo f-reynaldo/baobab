@@ -36,6 +36,7 @@ baobab_vala_args = [
   '--target-glib', '2.44',
   '--vapidir', meson.current_source_dir(),
   '--gresources', resource_files,
+  '--pkg', 'posix',
 ]
 
 baobab_c_args = [

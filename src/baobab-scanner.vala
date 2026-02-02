@@ -20,6 +20,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+using Posix;
+
 namespace Baobab {
 
     [Flags]
@@ -38,7 +40,7 @@ namespace Baobab {
 
         public Results root { get; set; }
 
-        public File directory { get; private set; }
+        public File? directory { get; private set; }
 
         public ScanFlags scan_flags { get; private set; }
 
@@ -78,31 +80,11 @@ namespace Baobab {
             FileAttribute.UNIX_INODE + "," +
             FileAttribute.UNIX_DEVICE;
 
-        [Compact]
-        class HardLink {
-            internal uint64 inode;
-            internal uint32 device;
-
-            public HardLink (FileInfo info) {
-                this.inode = info.get_attribute_uint64 (FileAttribute.UNIX_INODE);
-                this.device = info.get_attribute_uint32 (FileAttribute.UNIX_DEVICE);
-            }
-
-            public uint hash () {
-                return direct_hash ((void*) this.inode) ^ direct_hash ((void*) this.device);
-            }
-
-            public bool equal (HardLink other) {
-                return this.inode == other.inode && this.device == other.device;
-            }
-        }
 
         Thread<void*>? thread = null;
         uint process_result_idle = 0;
 
-        GenericSet<HardLink> hardlinks;
         GenericSet<string> excluded_locations;
-        uint32 unix_device = 0;
 
         bool successful = false;
 
@@ -157,6 +139,7 @@ namespace Baobab {
             // written in the worker thread before dispatch
             // read from the main thread only after dispatch
             public uint64 size { get; internal set; }
+            public uint64 pid { get; internal set; }
             public uint64 time_modified { get; internal set; }
             public int elements { get; internal set; }
             internal int max_depth;
@@ -214,6 +197,17 @@ namespace Baobab {
                 child_error = false;
             }
 
+            public Results.for_process (string pid_str, string display_name, uint64 size, uint64 ppid, Results? parent_results) {
+                parent = parent_results;
+                name = pid_str;
+                this.display_name = display_name;
+                this.size = size;
+                this.pid = uint64.parse(pid_str);
+                elements = 1;
+                error = null;
+                child_error = false;
+            }
+
             public Results.empty () {
             }
 
@@ -249,102 +243,96 @@ namespace Baobab {
             }
         }
 
-        void add_children (File directory, Results results, ResultsArray results_array) throws Error {
-            var children = directory.enumerate_children (ATTRIBUTES, FileQueryInfoFlags.NOFOLLOW_SYMLINKS, cancellable);
-            FileInfo? child_info;
-            while ((child_info = children.next_file (cancellable)) != null) {
-                switch (child_info.get_file_type ()) {
-                    case FileType.DIRECTORY:
-                        var child = directory.get_child (child_info.get_name ());
-                        var child_results = add_directory (child, child_info, results);
 
-                        if (child_results != null) {
-                            results.update_with_child (child_results);
-                            results_array.results += (owned) child_results;
-                        }
-                        break;
-
-                    case FileType.REGULAR:
-                        if (child_info.has_attribute (FileAttribute.UNIX_NLINK)) {
-                            if (child_info.get_attribute_uint32 (FileAttribute.UNIX_NLINK) > 1) {
-                                var hl = new HardLink (child_info);
-
-                                // check if we've already encountered this file
-                                if (hl in hardlinks) {
-                                    continue;
-                                }
-
-                                hardlinks.add ((owned) hl);
-                            }
-
-                        }
-
-                        var child_results = new Results (child_info, results);
-                        total_size += child_results.size;
-                        total_elements++;
-                        results.update_with_child (child_results);
-                        results_array.results += (owned) child_results;
-                        break;
-
-                    default:
-                        // ignore other types (symlinks, sockets, devices, etc)
-                        break;
+        void compute_sizes (Results res, HashTable<string, Results> process_map) {
+            foreach (var child in process_map.get_values ()) {
+                if (child.parent == res) {
+                    compute_sizes (child, process_map);
+                    res.update_with_child (child);
                 }
             }
-        }
-
-        Results? add_directory (File directory, FileInfo info, Results? parent = null) {
-            var results_array = new ResultsArray ();
-
-            var current_unix_device = info.get_attribute_uint32 (FileAttribute.UNIX_DEVICE);
-            if (ScanFlags.EXCLUDE_MOUNTS in scan_flags && current_unix_device != unix_device) {
-                return null;
-            }
-
-            var results = new Results (info, parent);
-            if (directory.get_uri () in excluded_locations) {
-                results.error = new IOError.FAILED ("Location is excluded");
-                return results;
-            }
-
-            total_size += results.size;
-            total_elements++;
-
-            try {
-                add_children (directory, results, results_array);
-            } catch (Error e) {
-                results.error = e;
-            }
-
-            foreach (unowned Results child_results in results_array.results) {
-                if (results.size > 0) {
-                    child_results.percent = 100 * ((double) child_results.size) / ((double) results.size);
-                } else {
-                    child_results.percent = 0;
-                }
-            }
-
-            // No early exit: in order to avoid a potential crash, we absolutely *must* push this onto the
-            // queue after having passed it to any recursive invocation of add_directory() above.
-            //  See the large comment at the top of this class for why.
-            results_queue.push ((owned) results_array);
-
-            return results;
         }
 
         void* scan_in_thread () {
             try {
                 var array = new ResultsArray ();
-                var info = directory.query_info (ATTRIBUTES, 0, cancellable);
 
-                // Use allocated size if available, where availability is defined as allocated size > 0
-                // for the root element. This is consistent with how we attribute sizes in the Results structure
-                show_allocated_size = info.get_attribute_uint64 (FileAttribute.STANDARD_ALLOCATED_SIZE) > 0;
+                // Virtual root
+                var root_results = new Results.empty ();
+                root_results.name = "root";
+                root_results.display_name = _("System Processes");
+                root_results.size = 0;
 
-                unix_device = info.get_attribute_uint32 (FileAttribute.UNIX_DEVICE);
-                var results = add_directory (directory, info);
-                results.percent = 100.0;
-                array.results += (owned) results;
+                var process_map = new HashTable<string, Results> (str_hash, str_equal);
+                var ppid_map = new HashTable<string, string> (str_hash, str_equal);
+
+                var dir = GLib.Dir.open ("/proc");
+                string? name;
+                long page_size = Posix.getpagesize ();
+                if (page_size <= 0) page_size = 4096;
+
+                while ((name = dir.read_name ()) != null) {
+                    if (!((char)name[0]).isdigit ()) continue;
+
+                    string stat_content;
+                    if (FileUtils.get_contents ("/proc/%s/stat".printf (name), out stat_content)) {
+                        int open_paren = stat_content.index_of ("(");
+                        int close_paren = stat_content.last_index_of (")");
+                        if (open_paren != -1 && close_paren != -1) {
+                            string comm = stat_content.substring (open_paren + 1, close_paren - open_paren - 1);
+                            string rest = stat_content.substring (close_paren + 2);
+                            string[] parts = rest.split (" ");
+                            if (parts.length > 1) {
+                                string ppid = parts[1];
+
+                                string statm_content;
+                                uint64 rss = 0;
+                                if (FileUtils.get_contents ("/proc/%s/statm".printf (name), out statm_content)) {
+                                    string[] statm_parts = statm_content.split (" ");
+                                    if (statm_parts.length > 1) {
+                                        rss = uint64.parse (statm_parts[1]) * (uint64) page_size;
+                                    }
+                                }
+
+                                var res = new Results.for_process (name, comm, rss, uint64.parse(ppid), null);
+                                process_map.insert (name, res);
+                                ppid_map.insert (name, ppid);
+                            }
+                        }
+                    }
+                }
+
+                // Link children to parents
+                foreach (unowned string pid in process_map.get_keys ()) {
+                    var res = process_map.lookup (pid);
+                    string ppid = ppid_map.lookup (pid);
+
+                    var parent_res = process_map.lookup (ppid);
+                    if (parent_res != null && ppid != pid) {
+                        res.parent = parent_res;
+                    } else {
+                        res.parent = root_results;
+                    }
+                }
+
+                // Calculate sizes
+                compute_sizes (root_results, process_map);
+
+                root_results.percent = 100.0;
+                total_size = root_results.size;
+                total_elements = (int) process_map.size ();
+
+                // Pre-allocate array for results
+                array.results = new Results[process_map.size () + 1];
+                int i = 0;
+                foreach (var res in process_map.get_values ()) {
+                    if (res.parent != null && res.parent.size > 0) {
+                        res.percent = 100.0 * (double) res.size / (double) res.parent.size;
+                    }
+                    array.results[i++] = res;
+                }
+                array.results[i++] = root_results;
+
                 results_queue.push ((owned) array);
             } catch (Error e) {
             }
@@ -367,7 +355,6 @@ namespace Baobab {
                         results.parent.children_list_store.insert (0, results);
                     }
 
-                    State state;
                     if (results.child_error) {
                         results.state = State.CHILD_ERROR;
                     } else if (results.error != null) {
@@ -412,8 +399,6 @@ namespace Baobab {
             while (tmp != null) {
                 tmp = results_queue.try_pop ();
             }
-
-            hardlinks = new GenericSet<HardLink> (HardLink.hash, HardLink.equal);
 
             cancellable.reset ();
             scan_error = null;
@@ -462,7 +447,7 @@ namespace Baobab {
             }
         }
 
-        public Scanner (File directory, ScanFlags flags) {
+        public Scanner (File? directory, ScanFlags flags) {
             this.directory = directory;
             this.scan_flags = flags;
             cancellable = new Cancellable();

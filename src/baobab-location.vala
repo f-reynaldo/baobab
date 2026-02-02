@@ -41,6 +41,7 @@ namespace Baobab {
         public Mount? mount { get; private set; }
 
         public bool is_main_volume { get; private set; default = false; }
+        public bool is_system_memory { get; private set; default = false; }
         public bool is_remote { get; private set; default = false; }
         public bool is_recent { get; private set; default = false; }
 
@@ -81,6 +82,15 @@ namespace Baobab {
             make_this_home_location ();
 
             scanner = new Scanner (file, ScanFlags.EXCLUDE_MOUNTS);
+        }
+
+        public Location.for_system_memory () {
+            name = _("System Memory");
+            icon = new ThemedIcon ("drive-harddisk-system");
+            symbolic_icon = new ThemedIcon ("drive-harddisk-system-symbolic");
+            is_system_memory = true;
+            file = null;
+            scanner = new Scanner (null, ScanFlags.NONE);
         }
 
         public Location.from_volume (Volume volume_) {
@@ -176,7 +186,38 @@ namespace Baobab {
         }
 
         public void queue_query_fs_usage () {
-            if (querying_fs || file == null) {
+            if (querying_fs) {
+                return;
+            }
+
+            if (is_system_memory) {
+                string meminfo;
+                try {
+                    if (FileUtils.get_contents ("/proc/meminfo", out meminfo)) {
+                        uint64 total = 0;
+                        uint64 available = 0;
+                        foreach (string line in meminfo.split ("\n")) {
+                            if (line.has_prefix ("MemTotal:")) {
+                                string[] parts = line.split (":")[1].strip ().split (" ");
+                                total = uint64.parse (parts[0]) * 1024;
+                            } else if (line.has_prefix ("MemAvailable:")) {
+                                string[] parts = line.split (":")[1].strip ().split (" ");
+                                available = uint64.parse (parts[0]) * 1024;
+                            }
+                        }
+                        if (total > 0) {
+                            size = total;
+                            used = total - available;
+                            reserved = 0;
+                            changed ();
+                        }
+                    }
+                } catch (Error e) {
+                }
+                return;
+            }
+
+            if (file == null) {
                 return;
             }
 

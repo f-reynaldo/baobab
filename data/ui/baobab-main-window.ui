@@ -4,10 +4,6 @@
   <menu id="primarymenu">
     <section>
       <item>
-        <attribute name="label" translatable="yes">Scan Folder…</attribute>
-        <attribute name="action">win.scan-folder</attribute>
-      </item>
-      <item>
         <attribute name="label" translatable="yes">Clear Recent List</attribute>
         <attribute name="action">win.clear-recent</attribute>
       </item>
@@ -26,13 +22,13 @@
         <attribute name="action">win.help</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">_About Disk Usage Analyzer</attribute>
+        <attribute name="label" translatable="yes">_About Memory Usage Analyzer</attribute>
         <attribute name="action">win.about</attribute>
       </item>
     </section>
   </menu>
   <template class="BaobabWindow" parent="AdwApplicationWindow">
-    <property name="title" translatable="yes">Disk Usage Analyzer</property>
+    <property name="title" translatable="yes">Memory Usage Analyzer</property>
     <property name="icon_name">org.gnome.baobab</property>
     <property name="height-request">294</property>
     <child>
@@ -42,7 +38,7 @@
             <child>
               <object class="AdwNavigationPage" id="home_page">
                 <property name="tag">home</property>
-                <property name="title" translatable="yes">Devices &amp; Locations</property>
+                <property name="title" translatable="yes">System Memory</property>
                 <property name="child">
                   <object class="AdwToolbarView">
                     <child type="top">
@@ -141,7 +137,7 @@
                                             </child>
                                             <child>
                                               <object class="GtkColumnViewColumn" id="folder_column">
-                                                <property name="title" translatable="yes">Folder</property>
+                                                <property name="title" translatable="yes">Process</property>
                                                 <property name="expand">True</property>
                                                 <property name="factory">
                                                   <object class="GtkSignalListItemFactory">
@@ -155,7 +151,7 @@
                                             </child>
                                             <child>
                                               <object class="GtkColumnViewColumn" id="size_column">
-                                                <property name="title" translatable="yes">Size</property>
+                                                <property name="title" translatable="yes">Memory</property>
                                                 <property name="factory">
                                                   <object class="GtkSignalListItemFactory">
                                                     <signal name="setup" handler="size_cell_setup"/>
@@ -168,6 +164,7 @@
                                             </child>
                                             <child>
                                               <object class="GtkColumnViewColumn" id="contents_column">
+                                                <property name="visible">False</property>
                                                 <property name="title" translatable="yes">Contents</property>
                                                 <property name="factory">
                                                   <object class="GtkSignalListItemFactory">
@@ -181,7 +178,7 @@
                                             </child>
                                             <child>
                                               <object class="GtkColumnViewColumn" id="time_modified_column">
-                                                <property name="title" translatable="yes">Modified</property>
+                                                <property name="title" translatable="yes">PID</property>
                                                 <property name="factory">
                                                   <object class="GtkSignalListItemFactory">
                                                     <signal name="setup" handler="time_modified_cell_setup"/>

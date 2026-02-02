@@ -3,16 +3,16 @@
   <id>org.gnome.baobab</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
-  <name>Disk Usage Analyzer</name>
-  <summary>Check folder sizes and available disk space</summary>
+  <name>Memory Usage Analyzer</name>
+  <summary>Check process memory usage and available RAM</summary>
   <description>
     <p>
-      A simple application to keep your disk usage and available space under control.
+      A simple application to keep your memory usage and available RAM under control.
     </p>
     <p>
-      Disk Usage Analyzer can scan specific folders, storage devices and online accounts.
-      It provides both a tree and a graphical representation showing the size of each folder,
-      making it easy to identify where disk space is wasted.
+      Memory Usage Analyzer can scan system processes.
+      It provides both a tree and a graphical representation showing the memory usage of each process,
+      making it easy to identify where RAM is wasted.
     </p>
   </description>
   <screenshots>
