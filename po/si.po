@@ -23,11 +23,11 @@ msgid "Check folder sizes and available disk space"
 msgstr ""
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "තැටි භාවිත විශ්ලේෂකය"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "තැටි භාවිත විශ්ලේෂක වරණය"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -38,47 +38,47 @@ msgstr "ගොනු පද්දතිය පරිලෝකිතයට ඇත
 msgid "_Monitor changes to your home folder"
 msgstr "නිවෙස් බහලුම වෙනස්කිරීම් අධීක්ෂණය කිරීමට (_M)"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 #, fuzzy
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "පරිලෝකනය වීමන් අත්හල පංගු ලැයිස්තුව"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 #, fuzzy
 msgid "Excluded partitions URIs"
 msgstr "අත්හල පංගු"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 #, fuzzy
 msgid "Monitor Home"
 msgstr "නිරීක්‍ෂකය (_M)"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 #, fuzzy
 msgid "Statusbar is Visible"
 msgstr "තත්ව තිරුපැතිපුවරුව දෘශ්‍ය වේ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "මෙවලම්තීරුව දෘශ්‍ය වේ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr "මූල ඩිරෙක්ටරියේ ඕනෑම වෙනස්කිරීමක් අධීක්ෂණය කල හැකි විය යුතුයි."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr "ප්‍රධාන කවුළුවේ මෙවලම් තීරුව දෘෂ්‍යමාන විය යුතුයි."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 #, fuzzy
 msgid "Which type of chart should be displayed."
 msgstr "පැති තීරුව පෙනී තිබිය යුතුයි"
@@ -545,7 +545,7 @@ msgid ""
 msgstr ""
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
+msgid "Baoram"
 msgstr ""
 
 #: ../src/callbacks.c:102

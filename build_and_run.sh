@@ -18,13 +18,13 @@ echo "Setting up build directory..."
 rm -rf build
 meson setup build
 
-echo "Compiling Baobab..."
+echo "Compiling Baoram..."
 meson compile -C build
 
 echo "Compiling GSettings schemas..."
 glib-compile-schemas data/
 
-echo "Launching Baobab..."
+echo "Launching Baoram..."
 # We set GSETTINGS_SCHEMA_DIR so the app can find its settings without a full system install
 export GSETTINGS_SCHEMA_DIR=$PWD/data
-./build/src/baobab
+./build/src/baoram

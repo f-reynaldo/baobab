@@ -10,7 +10,7 @@
 # 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
 #
 # 주의:
-# - Baobab은 "바오밥"으로 음역
+# - Baoram은 "바오밥"으로 음역
 #
 msgid ""
 msgstr ""
@@ -27,24 +27,24 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:260
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "디스크 사용량 분석"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "폴더 용량과 디스크의 빈 공간을 검사합니다"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr "디스크 사용량 및 남은 공간을 관리하는 간단한 프로그램입니다."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -52,53 +52,53 @@ msgstr ""
 "각 폴더를 트리 방식 및 그래픽으로 나타내어 디스크 공간을 낭비하는 영역을 쉽"
 "게 찾아볼 수 있게 합니다."
 
-#: data/org.gnome.baobab.appdata.xml.in:20
+#: data/freynaldo.baoram.appdata.xml.in:20
 msgid "Devices and Locations View"
 msgstr "장치 및 위치 보기"
 
-#: data/org.gnome.baobab.appdata.xml.in:24
+#: data/freynaldo.baoram.appdata.xml.in:24
 msgid "Scan View"
 msgstr "검사 보기"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.appdata.xml.in:43 src/baobab-window.vala:262
+#: data/freynaldo.baoram.appdata.xml.in:43 src/baobab-window.vala:262
 msgid "The GNOME Project"
 msgstr "그놈 프로젝트"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "storage;저장;장치;하드;space;공간;cleanup;지우기;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "제외한 위치 URI"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "검사에서 제외할 위치 URI 목록."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "사용할 차트"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "표시할 차트 종류."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "창 크기"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "창의 최초 크기"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "창 최대화"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "창 최대화 여부"
 
@@ -220,7 +220,7 @@ msgid "_Help"
 msgstr "도움말(_H)"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "디스크 사용량 분석 정보(_A)"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:571
@@ -437,10 +437,10 @@ msgstr "“%s”은(는) 올바른 폴더가 아닙니다"
 #~ msgid "Failed to show help"
 #~ msgstr "도움말을 표시하는데 실패했습니다"
 
-#~ msgid "org.gnome.baobab"
-#~ msgstr "org.gnome.baobab"
+#~ msgid "freynaldo.baoram"
+#~ msgstr "freynaldo.baoram"
 
-#~ msgid "Baobab"
+#~ msgid "Baoram"
 #~ msgstr "바오밥"
 
 #~ msgid "Could not scan some of the folders contained in “%s”"

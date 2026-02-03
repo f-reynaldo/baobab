@@ -24,11 +24,11 @@ msgid "Check folder sizes and available disk space"
 msgstr "ཡིག་སྣོད་ཀྱི་ཚད་ཚུ་དང་འཐོབ་ཚུགས་པའི་ཌིཀསི་ས་སྟོང་ཞིབ་དཔྱད་འབད"
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "ཌིཀསི་གི་བེད་སྤྱོད་དཔྱད་ཞིབ་པ།"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "ཌིཀསི་གི་བེད་སྤྱོད་དཔྱད་ཞིབ་པའི་དགའ་གདམས་ཚུ།"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -39,47 +39,47 @@ msgstr "ཡིག་སྣོད་རིམ་ལུགས་ཞིབ་ལྟ
 msgid "_Monitor changes to your home folder"
 msgstr "བསྒྱུར་བཅོས་ཚུ་ ཁྱོད་རའི་ཁྱིམ་སྣོད་འཛིན་ནང་ལུ་ ལྟ་རྟོག་འབད་(_M)"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 #, fuzzy
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "ཞིབ་ལྟའི་གྲངས་ལས་བཏོན་ནིའི་བར་བཅད་ཚུ་གི་ཐོ་ཡིག་ཅིག"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 #, fuzzy
 msgid "Excluded partitions URIs"
 msgstr "གྲངས་ལས་བཏོན་ཡོད་པའི་བར་བཅད་ཚུ།"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 #, fuzzy
 msgid "Monitor Home"
 msgstr "ལྟ་རྟོག་འབད།(_M)"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 #, fuzzy
 msgid "Statusbar is Visible"
 msgstr "གནས་ཚད་ཕྲ་རིང་མཐོང་ཚུགས་པས།"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "ལག་ཆས་ཕྲ་རིང་མཐོང་ཚུགས་པས།"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr "ཁྱིམ་གྱི་སྣོད་ཐོ་ལུ་ བསྒྱུར་བཅོས་གང་རུང་འབད་མི་ལུ་ དོ་དམ་འབད་དགོཔ་ཨིན་ན་མེན།"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr "སྒོ་སྒྲིག་གཙོ་བོའི་མཇུག་ལུ་ གནས་ཕྲ་རིང་མཐོང་དགོཔ་ཨིན་ན་མེན།"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr "ཁྱིམ་གྱི་སྣོད་ཐོ་ལུ་ བསྒྱུར་བཅོས་གང་རུང་འབད་མི་ལུ་ དོ་དམ་འབད་དགོ་ག་མིན་དགོ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 #, fuzzy
 msgid "Which type of chart should be displayed."
 msgstr "ཟུར་ཁའི་ཕྲ་རིང་དེ་ མཐོང་དགོཔ་ཨིན་ན་མེན།"
@@ -554,7 +554,7 @@ msgid ""
 msgstr ""
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
+msgid "Baoram"
 msgstr "བའོ་བབ།"
 
 #: ../src/callbacks.c:102

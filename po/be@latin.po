@@ -24,11 +24,11 @@ msgid "Check folder sizes and available disk space"
 msgstr "Spraŭdź pamiery katalohaŭ i dyskavuju prastoru"
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analizatar zaniataści dyskavaj prastory"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "Nałady analizatara zaniataści dyskavaj prastory"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -39,47 +39,47 @@ msgstr "Abiary _pryłady, kab uklučyć u skanavańnie fajłavaj systemy:"
 msgid "_Monitor changes to your home folder"
 msgstr "_Naziraj za źmienami ŭ maim chatnim katalohu"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 #, fuzzy
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Śpis adrasoŭ partycyjaŭ, jakija nia treba skanavać."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 #, fuzzy
 msgid "Excluded partitions URIs"
 msgstr "Adrasy vyklučanych partycyjaŭ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 #, fuzzy
 msgid "Monitor Home"
 msgstr "_Naziraj"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 #, fuzzy
 msgid "Statusbar is Visible"
 msgstr "Panel statusu bačnaja"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "Panel pryładździa bačnaja"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr "Ci nazirać za kožnaj źmienaj u chatnim katalohu."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr "Ci pavinna być bačnaj panel statusu ŭnizie hałoŭnaha vakna."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr "Ci pavinna być bačnaj panel pryładździa ŭ hałoŭnym aknie."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 #, fuzzy
 msgid "Which type of chart should be displayed."
 msgstr "Ci pavinna być bačnaj bakavaja panel"
@@ -539,8 +539,8 @@ msgid ""
 msgstr ""
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/callbacks.c:102
 msgid "A graphical tool to analyze disk usage."

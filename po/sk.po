@@ -28,21 +28,21 @@ msgstr ""
 "X-DL-Domain: po\n"
 "X-DL-State: Translating\n"
 
-#: data/org.gnome.baobab.desktop.in:3 data/org.gnome.baobab.metainfo.xml.in:6
+#: data/freynaldo.baoram.desktop.in:3 data/freynaldo.baoram.metainfo.xml.in:6
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:260
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analyzátor využitia disku"
 
-#: data/org.gnome.baobab.desktop.in:4 data/org.gnome.baobab.metainfo.xml.in:7
+#: data/freynaldo.baoram.desktop.in:4 data/freynaldo.baoram.metainfo.xml.in:7
 msgid "Check folder sizes and available disk space"
 msgstr "Kontroluje veľkosti priečinkov a dostupné miesto na disku"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "úložisko;miesto;premazanie;vyčistenie;čistenie;"
 
-#: data/org.gnome.baobab.metainfo.xml.in:9
+#: data/freynaldo.baoram.metainfo.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -50,9 +50,9 @@ msgstr ""
 "Jednoduchá aplikácia, ktorá vám pomôže udržať využitie disku a dostupné "
 "miesto pod kontrolou."
 
-#: data/org.gnome.baobab.metainfo.xml.in:12
+#: data/freynaldo.baoram.metainfo.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -61,48 +61,48 @@ msgstr ""
 "ktorá zobrazuje veľkosť každého priečinku a uľahčuje tým identifikáciu, kde "
 "sa plytvá miestom."
 
-#: data/org.gnome.baobab.metainfo.xml.in:20
+#: data/freynaldo.baoram.metainfo.xml.in:20
 msgid "Devices and Locations View"
 msgstr "Zobrazenie zariadení a umiestnení"
 
-#: data/org.gnome.baobab.metainfo.xml.in:24
+#: data/freynaldo.baoram.metainfo.xml.in:24
 msgid "Scan View"
 msgstr "Zobrazenie analýzy"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.metainfo.xml.in:41 src/baobab-window.vala:262
+#: data/freynaldo.baoram.metainfo.xml.in:41 src/baobab-window.vala:262
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "URI vynechaných umiestnení"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "Zoznam URI pre umiestnenia, ktoré budú vynechané z analýzy."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Aktívny graf"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Ktorý typ grafu má byť zobrazený."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Veľkosť okna"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "Počiatočná veľkosť okna"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "Maximalizované okno"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "Určuje, či je alebo nie je okno maximalizované"
 
@@ -225,7 +225,7 @@ msgid "_Help"
 msgstr "_Pomocník"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "_O aplikácii Analyzátor využitia disku"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:571
@@ -462,11 +462,11 @@ msgstr "„%s“ nie je platný priečinok"
 #~ msgid "Failed to show help"
 #~ msgstr "Zlyhalo zobrazenie pomocníka"
 
-#~ msgid "org.gnome.baobab"
-#~ msgstr "org.gnome.baobab"
+#~ msgid "freynaldo.baoram"
+#~ msgstr "freynaldo.baoram"
 
-#~ msgid "Baobab"
-#~ msgstr "Baobab"
+#~ msgid "Baoram"
+#~ msgstr "Baoram"
 
 #~ msgid "Could not scan some of the folders contained in “%s”"
 #~ msgstr "Nepodarilo sa analyzovať niektoré z priečinkov obsiahnutých v „%s“"

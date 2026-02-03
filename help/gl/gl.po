@@ -24,19 +24,19 @@ msgstr "Fran Diéguez <frandieguez@gnome.org>, 2012-2023."
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "text"
-msgid "Disk Usage Analyzer help"
+msgid "Memory Usage Analyzer help"
 msgstr "Axuda do Analizador do uso do disco"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "link"
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analizador do uso do disco"
 
 #. (itstool) path: info/title
 #: C/index.page:9
 msgctxt "link:trail"
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analizador do uso do disco"
 
 #. (itstool) path: credit/name
@@ -56,14 +56,14 @@ msgstr "Ekaterina Gerasimova"
 
 #. (itstool) path: info/desc
 #: C/index.page:25
-msgid "<app>Disk Usage Analyzer</app> is a graphical storage device scanner."
+msgid "<app>Memory Usage Analyzer</app> is a graphical storage device scanner."
 msgstr ""
 "<app>Analizador de uso de disco</app> é un analizador gráfico de dispositivos "
 "de almacenamento."
 
 #. (itstool) path: page/title
 #: C/index.page:30
-msgid "<_:media-1/> Disk Usage Analyzer"
+msgid "<_:media-1/> Memory Usage Analyzer"
 msgstr "<_:media-1/>  Analizador do uso do disco"
 
 #. (itstool) path: section/title
@@ -90,7 +90,7 @@ msgstr "Michael Hill"
 #. (itstool) path: info/desc
 #: C/introduction.page:27
 msgid ""
-"<app>Disk Usage Analyzer</app> is an application which shows you your use of "
+"<app>Memory Usage Analyzer</app> is an application which shows you your use of "
 "storage space using graphs."
 msgstr ""
 "<app>Analizador de uso de disco</app> é unha aplicación que móstralle o uso do "
@@ -104,10 +104,10 @@ msgstr "Introdución"
 #. (itstool) path: page/p
 #: C/introduction.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> is a graphical application for analysing "
+"<app>Memory Usage Analyzer</app> is a graphical application for analysing "
 "storage device usage. It can be used to scan multiple local or remote storage "
 "devices, including hard disks, SSDs, USB sticks, digital cameras and memory "
-"cards. <app>Disk Usage Analyzer</app> can scan either the <link xref=\"scan-"
+"cards. <app>Memory Usage Analyzer</app> can scan either the <link xref=\"scan-"
 "file-system\">whole file system</link>, <link xref=\"scan-home\">your "
 "<file>Home</file> directory</link>, <link xref=\"scan-folder\">a specified "
 "folder</link> or <link xref=\"scan-remote\">a remote directory</link>."
@@ -221,7 +221,7 @@ msgstr "Produciuse un erro ao analizar"
 #: C/problem-permissions.page:23
 msgid ""
 "When scanning you might see a message <gui>Could not scan /… or some of the "
-"folders it contains</gui> at the top of <app>Disk Usage Analyzer</app> window. "
+"folders it contains</gui> at the top of <app>Memory Usage Analyzer</app> window. "
 "This error appears because you don't have the required permissions to access "
 "some files due to restrictions set on the target system. The files you can't "
 "access won't be used to compute the <link xref=\"pref-view-chart\">chart</"
@@ -248,7 +248,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/problem-permissions.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> uses command <cmd>du</cmd> to create the "
+"<app>Memory Usage Analyzer</app> uses command <cmd>du</cmd> to create the "
 "detailed view of the use of storage, and needs you have read permission on "
 "files and execute permission of directories."
 msgstr ""
@@ -342,7 +342,7 @@ msgstr "Como elimino un cartafol?"
 #: C/question-trash.page:23
 msgid ""
 "You can clear out some space from your computer or a remote file system using "
-"<app>Disk Usage Analyzer</app> by moving folders to <file>Trash</file> and "
+"<app>Memory Usage Analyzer</app> by moving folders to <file>Trash</file> and "
 "deleting them."
 msgstr ""
 "Pode limpar algo de espazo do ordenador ou dun sistema de ficheiros remoto "
@@ -448,7 +448,7 @@ msgstr "Prema <gui>Abrir</gui> para comezar un análise."
 msgid ""
 "The folder which you just scanned will now be added to your list of "
 "<gui>Devices &amp; Locations</gui>. If the folder is renamed or deleted, it "
-"will be removed from the list when you next restart <app>Disk Usage Analyzer</"
+"will be removed from the list when you next restart <app>Memory Usage Analyzer</"
 "app>."
 msgstr ""
 "O cartafol que acaba de analizar engadirase agora á súa lista de "
@@ -504,7 +504,7 @@ msgstr "Analizar un cartafol remoto"
 #. (itstool) path: page/p
 #: C/scan-remote.page:34
 msgid ""
-"<app>Disk Usage Analyzer</app> can scan storage devices which are accessible "
+"<app>Memory Usage Analyzer</app> can scan storage devices which are accessible "
 "remotely. To scan the whole file system or any specific folder remotely:"
 msgstr ""
 "O <app>Analizador de uso de disco</app>pode analizar dispositivos de "

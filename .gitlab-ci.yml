@@ -7,11 +7,11 @@ include:
       tarball-artifact-path: "${TARBALL_ARTIFACT_PATH}"
 
 variables:
-    MANIFEST_PATH: "build-aux/flatpak/org.gnome.baobab.json"
-    FLATPAK_MODULE: "baobab"
+    MANIFEST_PATH: "build-aux/flatpak/freynaldo.baoram.json"
+    FLATPAK_MODULE: "baoram"
     RUNTIME_REPO: "https://nightly.gnome.org/gnome-nightly.flatpakrepo"
-    BUNDLE: "baobab-dev.flatpak"
-    APP_ID: "org.gnome.baobab"
+    BUNDLE: "baoram-dev.flatpak"
+    APP_ID: "freynaldo.baoram"
     TARBALL_ARTIFACT_PATH: ".flatpak-builder/build/${FLATPAK_MODULE}/_flatpak_build/meson-dist/${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.xz"
 
 flatpak:

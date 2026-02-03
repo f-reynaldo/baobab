@@ -26,77 +26,77 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.baobab.desktop.in:3 data/org.gnome.baobab.metainfo.xml.in:6
+#: data/freynaldo.baoram.desktop.in:3 data/freynaldo.baoram.metainfo.xml.in:6
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:260
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "磁碟用量分析器"
 
-#: data/org.gnome.baobab.desktop.in:4 data/org.gnome.baobab.metainfo.xml.in:7
+#: data/freynaldo.baoram.desktop.in:4 data/freynaldo.baoram.metainfo.xml.in:7
 msgid "Check folder sizes and available disk space"
 msgstr "檢查資料夾大小與可用的磁碟空間"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "storage;space;cleanup;儲存區;空間;清理;磁碟用量;分析;垃圾;"
 
-#: data/org.gnome.baobab.metainfo.xml.in:9
+#: data/freynaldo.baoram.metainfo.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr "一款能控管磁碟用量及可用空間的簡單應用程式。"
 
-#: data/org.gnome.baobab.metainfo.xml.in:12
+#: data/freynaldo.baoram.metainfo.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
 "《磁碟用量分析器》能掃描特定資料夾、儲存裝置、線上帳號等位置，並提供環狀與樹"
 "狀兩種圖表來呈現個別資料夾所佔用的空間，藉此來分析磁碟空間是否有妥善利用。"
 
-#: data/org.gnome.baobab.metainfo.xml.in:20
+#: data/freynaldo.baoram.metainfo.xml.in:20
 msgid "Devices and Locations View"
 msgstr "裝置與位置檢視"
 
-#: data/org.gnome.baobab.metainfo.xml.in:24
+#: data/freynaldo.baoram.metainfo.xml.in:24
 msgid "Scan View"
 msgstr "掃描檢視"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.metainfo.xml.in:41 src/baobab-window.vala:262
+#: data/freynaldo.baoram.metainfo.xml.in:41 src/baobab-window.vala:262
 msgid "The GNOME Project"
 msgstr "GNOME 專案"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "要排除位置的 URI"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "掃描時要排除的位置 URI 列表。"
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "使用的圖表"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "要顯示哪一種圖表類型。"
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "視窗尺寸"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "視窗的初始尺寸"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "視窗最大化"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "是否要最大化視窗"
 
@@ -218,7 +218,7 @@ msgid "_Help"
 msgstr "求助(_H)"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "關於磁碟用量分析器(_A)"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:571
@@ -441,8 +441,8 @@ msgstr "「%s」並非有效的資料夾"
 #~ msgid "Could not scan some of the folders contained in “%s”"
 #~ msgstr "無法掃描包含於資料夾「%s」的某些資料夾"
 
-#~ msgid "Baobab"
-#~ msgstr "Baobab"
+#~ msgid "Baoram"
+#~ msgstr "Baoram"
 
 #~ msgid "baobab"
 #~ msgstr "baobab"
@@ -549,7 +549,7 @@ msgstr "「%s」並非有效的資料夾"
 #~ msgid "_Toolbar"
 #~ msgstr "工具列(_T)"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "磁碟用量分析器偏好設定"
 
 #~ msgid "Select _devices to include in file system scan:"

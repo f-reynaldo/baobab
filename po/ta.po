@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\\n"
 ";\n"
 
-#: ../data/org.gnome.baobab.appdata.xml.in.h:1
+#: ../data/freynaldo.baoram.appdata.xml.in.h:1
 msgid ""
 "A simple application which can scan either specific folders (local or "
 "remote) or volumes and give a graphical representation including each "
@@ -37,47 +37,47 @@ msgstr ""
 "கோப்பகத்தின் அளவுகள் அல்லது சதவீதத்தினை வரைவியல் வடிவில் வழங்கும் ஒரு எளிய "
 "பயன்பாடு."
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
-msgid "Disk Usage Analyzer"
+#: ../data/freynaldo.baoram.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
+msgid "Memory Usage Analyzer"
 msgstr "வட்டு பயன்பாடு ஆராய்வி"
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:2
+#: ../data/freynaldo.baoram.desktop.in.in.h:2
 msgid "Check folder sizes and available disk space"
 msgstr "அடைவு அளவு மற்றும் கிடைக்கக்கூடிய வட்டு இடைவெளி ஆகியவற்றை சரிபார் "
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:3
+#: ../data/freynaldo.baoram.desktop.in.in.h:3
 msgid "storage;space;cleanup;"
 msgstr "கிடங்கு;இடம்;சுத்தகரிப்பு;"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:1
 msgid "Excluded partitions URIs"
 msgstr "சேர்க்கப்படாத  பகிர்வுகளின் யூஆர்ஐ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:2
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "வருடலில் இருந்து தவிர்க்க வேண்டிய பகிர்வுகளின் யூஆர்ஐ பட்டியல்"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:3
 msgid "Active Chart"
 msgstr "செயலில் உள்ள விளக்க அட்டவணை"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:4
 msgid "Which type of chart should be displayed."
 msgstr "எந்த மாதிரி விளக்க அட்டவணை தெரிய வேண்டும்?"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:5
 msgid "Window size"
 msgstr "சாளரத்தின் அளவு"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:6
 msgid "The initial size of the window"
 msgstr "சாளரத்தின் ஆரம்ப அளவு"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:7
 msgid "Window state"
 msgstr "சாளர நிலை"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:8
 msgid "The GdkWindowState of the window"
 msgstr "சாளரத்தின் ஜிடிகே சாளர நிலை"
 
@@ -207,8 +207,8 @@ msgid "Failed to show help"
 msgstr "உதவியைக் காண்பிப்பதில் தோல்வியடைந்தது"
 
 #: ../src/baobab-window.vala:309
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/baobab-window.vala:312
 msgid "A graphical tool to analyze disk usage."
@@ -285,7 +285,7 @@ msgstr "_i அணுகிப்பார்"
 msgid "Zoom _out"
 msgstr "_o விலகிப்பார்"
 
-#~ msgid "- Disk Usage Analyzer"
+#~ msgid "- Memory Usage Analyzer"
 #~ msgstr "- வட்டு பயன்பாடு ஆராய்வி"
 
 #~ msgid "Maximum depth"
@@ -351,7 +351,7 @@ msgstr "_o விலகிப்பார்"
 #~ msgid "label"
 #~ msgstr "அடையாளம்"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "வட்டு பயன்பாடு ஆய்வி விருப்பங்கள்"
 
 #~ msgid "Select _devices to include in file system scan:"

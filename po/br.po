@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Baobab\n"
+"Project-Id-Version: Baoram\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=baobab&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-09-30 14:54+0000\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "Language: br\n"
 
-#: ../data/org.gnome.baobab.appdata.xml.in.h:1
+#: ../data/freynaldo.baoram.appdata.xml.in.h:1
 msgid ""
 "A simple application which can scan either specific folders (local or "
 "remote) or volumes and give a graphical representation including each "
@@ -31,47 +31,47 @@ msgstr ""
 "pezhiennoù ha skrammañ un derc'hennadur gant ment an holl teuliadoù pe "
 "dregentad."
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
-msgid "Disk Usage Analyzer"
+#: ../data/freynaldo.baoram.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
+msgid "Memory Usage Analyzer"
 msgstr "Dezranner arver ar c'hantennoù"
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:2
+#: ../data/freynaldo.baoram.desktop.in.in.h:2
 msgid "Check folder sizes and available disk space"
 msgstr "Gwiriañ mentoù an teuliadoù ha plas hegerz war ar gantennad"
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:3
+#: ../data/freynaldo.baoram.desktop.in.in.h:3
 msgid "storage;space;cleanup;"
 msgstr "kadaviñ;egor;naetaat;"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:1
 msgid "Excluded partitions URIs"
 msgstr "URIoù ar parzhioù ezlakaet"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:2
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Ur roll URIoù evit ar parzhioù a vo ezlakaet diouzh ar c'hwilervañ."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:3
 msgid "Active Chart"
 msgstr "Gwel oberiat"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:4
 msgid "Which type of chart should be displayed."
 msgstr "Rizh ar gwel da vezañ skrammet"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:5
 msgid "Window size"
 msgstr "Ment ar prenestr"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:6
 msgid "The initial size of the window"
 msgstr "Ment a-gent ar prenestr"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:7
 msgid "Window state"
 msgstr "Stad ar prenestr"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:8
 msgid "The GdkWindowState of the window"
 msgstr "Stad GdkWindow ar prenestr"
 
@@ -201,8 +201,8 @@ msgid "Failed to show help"
 msgstr "C'hwitadenn war ziskouez ar skoazell"
 
 #: ../src/baobab-window.vala:309
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/baobab-window.vala:312
 msgid "A graphical tool to analyze disk usage."
@@ -281,7 +281,7 @@ msgstr "Zoum_añ"
 msgid "Zoom _out"
 msgstr "Bi_hanaat"
 
-#~ msgid "- Disk Usage Analyzer"
+#~ msgid "- Memory Usage Analyzer"
 #~ msgstr "- Dezranner arver ar kantennoù"
 
 #~ msgid "Maximum depth"

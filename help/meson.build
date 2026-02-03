@@ -14,7 +14,7 @@ help_files = [
 ]
 
 help_media = [
-  'media/org.gnome.baobab.svg'
+  'media/freynaldo.baoram.svg'
 ]
 
 gnome.yelp(

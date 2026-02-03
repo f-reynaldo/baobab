@@ -25,16 +25,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:260
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Wykorzystanie dysku"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Wyświetlanie rozmiaru katalogów i dostępnego miejsca na dysku"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -42,9 +42,9 @@ msgstr ""
 "Prosty program pomagający utrzymać wykorzystanie dysku i dostępne miejsce "
 "w ryzach."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -52,55 +52,55 @@ msgstr ""
 "drzewo katalogów oraz ich graficzna reprezentacja, pokazująca rozmiar "
 "każdego katalogu, ułatwiając identyfikowanie zmarnowanego miejsca."
 
-#: data/org.gnome.baobab.appdata.xml.in:20
+#: data/freynaldo.baoram.appdata.xml.in:20
 msgid "Devices and Locations View"
 msgstr "Widok urządzeń i położeń"
 
-#: data/org.gnome.baobab.appdata.xml.in:24
+#: data/freynaldo.baoram.appdata.xml.in:24
 msgid "Scan View"
 msgstr "Widok skanowania"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.appdata.xml.in:43 src/baobab-window.vala:262
+#: data/freynaldo.baoram.appdata.xml.in:43 src/baobab-window.vala:262
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr ""
 "pamięć masowa;dyski;miejsce;przestrzeń;czyszczenie;analizator;foldery;"
 "katalogi;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "Adresy URI wykluczonych położeń"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "Lista adresów URI położeń wykluczonych ze skanowania."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Aktywny wykres"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Określa, który typ wykresu ma być wyświetlany."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Rozmiar okna"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "Początkowy rozmiar okna"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "Zmaksymalizowane okno"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "Czy okno jest zmaksymalizowane"
 
@@ -222,7 +222,7 @@ msgid "_Help"
 msgstr "Pomo_c"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "_O programie"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:571

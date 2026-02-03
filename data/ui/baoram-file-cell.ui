@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="BaoramFileCell">
+    <property name="child">
+      <object class="GtkTreeExpander">
+        <binding name="list-row">
+          <lookup name="list-row">BaoramFileCell</lookup>
+        </binding>
+        <binding name="hide-expander">
+          <lookup name="is-empty" type="BaoramScannerResults">
+            <lookup name="item">BaoramFileCell</lookup>
+          </lookup>
+        </binding>
+        <property name="child">
+          <object class="GtkBox">
+            <property name="hexpand">True</property>
+            <child>
+              <object class="BaoramProgressCell">
+                <binding name="fraction">
+                  <lookup name="fraction" type="BaoramScannerResults">
+                    <lookup name="item">BaoramFileCell</lookup>
+                  </lookup>
+                </binding>
+              </object>
+            </child>
+            <child>
+              <object class="BaoramNameCell">
+                <binding name="item">
+                  <lookup name="item">BaoramFileCell</lookup>
+                </binding>
+              </object>
+            </child>
+            <style>
+              <class name="baoram-cell-box"/>
+            </style>
+          </object>
+        </property>
+      </object>
+    </property>
+  </template>
+</interface>

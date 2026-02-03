@@ -40,12 +40,12 @@ msgstr ""
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
 #, fuzzy
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Dadansoddydd Defnydd Disg"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
 #, fuzzy
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "Hoffterau Dadansoddydd Defnydd Disg"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -57,47 +57,47 @@ msgstr "Dewis _dyfeisiau i'w cynnwys wrth sganio'r system:"
 msgid "_Monitor changes to your home folder"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 #, fuzzy
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Rhestr o raniadau i'w heithrio o'r chwilio."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 #, fuzzy
 msgid "Excluded partitions URIs"
 msgstr "Ymraniadau wedi'u heithrio"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 #, fuzzy
 msgid "Monitor Home"
 msgstr "_Arsylwi"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 #, fuzzy
 msgid "Statusbar is Visible"
 msgstr "Bar Statws yn Weladwy"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "Bar Offer yn Weladwy"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr "A ddylid monitro unrhyw newid i'r cyfeiriadur cartref."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr "A ddylai'r bar statws ar waelod y brif ffenestr fod yn weladwy."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr "A ddylai'r bar offer fod yn weladwy yn y brif ffenestr."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
 msgstr ""
 
@@ -594,8 +594,8 @@ msgid ""
 msgstr ""
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/callbacks.c:102
 #, fuzzy

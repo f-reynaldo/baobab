@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.baobab
-Exec=@bindir@/baobab --gapplication-service

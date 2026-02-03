@@ -1,13 +1,13 @@
-# Turkish translation for Baobab.
-# Copyright (C) 2021-2023 Baobab's COPYRIGHT HOLDER
-# This file is distributed under the same license as the Baobab package.
+# Turkish translation for Baoram.
+# Copyright (C) 2021-2023 Baoram's COPYRIGHT HOLDER
+# This file is distributed under the same license as the Baoram package.
 #
 # Sabri Ünal <libreajans@gmail.com>, 2021, 2022, 2023.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Baobab master\n"
+"Project-Id-Version: Baoram master\n"
 "POT-Creation-Date: 2023-02-12 02:26+0000\n"
 "PO-Revision-Date: 2023-02-12 05:44+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
@@ -29,19 +29,19 @@ msgstr ""
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "text"
-msgid "Disk Usage Analyzer help"
+msgid "Memory Usage Analyzer help"
 msgstr "Disk Kullanımı İnceleyici yardım"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "link"
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Disk Kullanımı İnceleyici"
 
 #. (itstool) path: info/title
 #: C/index.page:9
 msgctxt "link:trail"
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Disk Kullanımı İnceleyici"
 
 #. (itstool) path: credit/name
@@ -61,13 +61,13 @@ msgstr "Ekaterina Gerasimova"
 
 #. (itstool) path: info/desc
 #: C/index.page:25
-msgid "<app>Disk Usage Analyzer</app> is a graphical storage device scanner."
+msgid "<app>Memory Usage Analyzer</app> is a graphical storage device scanner."
 msgstr ""
 "<app>Disk Kullanımı İnceleyici</app> grafiksel depolama aygıtı tarayıcısıdır."
 
 #. (itstool) path: page/title
 #: C/index.page:30
-msgid "<_:media-1/> Disk Usage Analyzer"
+msgid "<_:media-1/> Memory Usage Analyzer"
 msgstr "<_:media-1/> Disk Kullanımı İnceleyici"
 
 #. (itstool) path: section/title
@@ -94,7 +94,7 @@ msgstr "Michael Hill"
 #. (itstool) path: info/desc
 #: C/introduction.page:27
 msgid ""
-"<app>Disk Usage Analyzer</app> is an application which shows you your use of "
+"<app>Memory Usage Analyzer</app> is an application which shows you your use of "
 "storage space using graphs."
 msgstr ""
 "<app>Disk Kullanımı İnceleyici</app> depolama alanı kullanımınızı grafikler "
@@ -108,10 +108,10 @@ msgstr "Giriş"
 #. (itstool) path: page/p
 #: C/introduction.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> is a graphical application for analysing "
+"<app>Memory Usage Analyzer</app> is a graphical application for analysing "
 "storage device usage. It can be used to scan multiple local or remote "
 "storage devices, including hard disks, SSDs, USB sticks, digital cameras and "
-"memory cards. <app>Disk Usage Analyzer</app> can scan either the <link "
+"memory cards. <app>Memory Usage Analyzer</app> can scan either the <link "
 "xref=\"scan-file-system\">whole file system</link>, <link xref=\"scan-"
 "home\">your <file>Home</file> directory</link>, <link xref=\"scan-folder\">a "
 "specified folder</link> or <link xref=\"scan-remote\">a remote directory</"
@@ -223,7 +223,7 @@ msgstr "Tararken hata"
 #: C/problem-permissions.page:23
 msgid ""
 "When scanning you might see a message <gui>Could not scan /… or some of the "
-"folders it contains</gui> at the top of <app>Disk Usage Analyzer</app> "
+"folders it contains</gui> at the top of <app>Memory Usage Analyzer</app> "
 "window. This error appears because you don't have the required permissions "
 "to access some files due to restrictions set on the target system. The files "
 "you can't access won't be used to compute the <link xref=\"pref-view-"
@@ -250,7 +250,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/problem-permissions.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> uses command <cmd>du</cmd> to create the "
+"<app>Memory Usage Analyzer</app> uses command <cmd>du</cmd> to create the "
 "detailed view of the use of storage, and needs you have read permission on "
 "files and execute permission of directories."
 msgstr ""
@@ -341,7 +341,7 @@ msgstr "Klasörü nasıl silebilirim?"
 #: C/question-trash.page:23
 msgid ""
 "You can clear out some space from your computer or a remote file system "
-"using <app>Disk Usage Analyzer</app> by moving folders to <file>Trash</file> "
+"using <app>Memory Usage Analyzer</app> by moving folders to <file>Trash</file> "
 "and deleting them."
 msgstr ""
 "<app>Disk Kullanımı İnceleyici</app>’yi kullanarak, gereksiz klasörleri "
@@ -503,7 +503,7 @@ msgstr "Uzaktaki klasörü tara"
 #. (itstool) path: page/p
 #: C/scan-remote.page:34
 msgid ""
-"<app>Disk Usage Analyzer</app> can scan storage devices which are accessible "
+"<app>Memory Usage Analyzer</app> can scan storage devices which are accessible "
 "remotely. To scan the whole file system or any specific folder remotely:"
 msgstr ""
 "<app>Disk Kullanım İnceleyicisi</app>, uzaktan erişilebilen depolama "

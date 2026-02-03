@@ -1,5 +1,5 @@
-# Baobab'i eesti keele tõlge.
-# Estonian translation of Baobab.
+# Baoram'i eesti keele tõlge.
+# Estonian translation of Baoram.
 # Some of it was known as gnome-utils before.
 #
 # Copyright (C) 1999, 2002, 2005, 2006 Free Software Foundation, Inc.
@@ -37,7 +37,7 @@ msgstr ""
 "partitsioone ning kuvab kataloogide suuruse graafiliselt või "
 "protsentuaalselt."
 
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Kettakasutuse analüsaator"
 
 msgid "Check folder sizes and available disk space"
@@ -168,8 +168,8 @@ msgstr "Köidet pole võimalik analüüsida."
 msgid "Failed to show help"
 msgstr "Abi kuvamine nurjus"
 
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 msgid "A graphical tool to analyze disk usage."
 msgstr "Graafiline tööriist kettakasutuse analüüsimiseks."
@@ -231,7 +231,7 @@ msgstr "_Suurenda"
 msgid "Zoom _out"
 msgstr "_Vähenda"
 
-#~ msgid "- Disk Usage Analyzer"
+#~ msgid "- Memory Usage Analyzer"
 #~ msgstr "- Kettakasutuse analüsaator"
 
 #~ msgid "Maximum depth"
@@ -303,7 +303,7 @@ msgstr "_Vähenda"
 #~ msgid "_Allocated Space"
 #~ msgstr "_Eraldatud ruum"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "Kettakasutuse analüsaatori eelistused"
 
 #~ msgid "Select _devices to include in file system scan:"

@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../data/baobab.desktop.in.in.h:1 ../src/baobab-window.vala:170
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Disk Qullanımı Tahlilcisi"
 
 #: ../data/baobab.desktop.in.in.h:2
@@ -30,36 +30,36 @@ msgstr "Cilbent ölçülerini ve faydalanışlı disk fezasını teşker"
 msgid "storage;space;cleanup;"
 msgstr "mağaz;feza;temizlik;temizle;"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 msgid "Excluded partitions URIs"
 msgstr "Haric tutulğan taqsimler URI'ları"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Taramada haric tutulacaq taqsimler içün bir URI listesi."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 msgid "Active Chart"
 msgstr "Faal Grafik"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 msgid "Which type of chart should be displayed."
 msgstr "Qaysı grafik türüniñ kösterilecegi."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 msgid "Window size"
 msgstr "Pencere ölçüsi"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "The initial size of the window"
 msgstr "Pencereniñ başlanğıç ölçüsi"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Window state"
 msgstr "Pencere durumı"
 
 # tüklü
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "The GdkWindowState of the window"
 msgstr "Pencereni içün GdkWindowState"
 
@@ -68,7 +68,7 @@ msgid "Print version information and exit"
 msgstr "Sürüm malümatını bastır ve çıq"
 
 #: ../src/baobab-application.vala:106
-msgid "- Disk Usage Analyzer"
+msgid "- Memory Usage Analyzer"
 msgstr "- Disk Qullanımı Tahlilcisi"
 
 #: ../src/baobab-cellrenderers.vala:100
@@ -246,8 +246,8 @@ msgstr "Cılt tahlil etilamadı."
 
 # tr
 #: ../src/baobab-window.vala:317
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 # tr
 #: ../src/baobab-window.vala:320
@@ -275,7 +275,7 @@ msgstr "\"%s\" geçerli bir klasör değil"
 msgid "Could not analyze disk usage."
 msgstr "Disk kullanımını analiz edilemedi."
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "Disk Qullanımı Tahlilcisi Tercihleri"
 
 #~ msgid "Select _devices to include in file system scan:"

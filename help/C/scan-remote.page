@@ -31,7 +31,7 @@
 
   <title>Scan a remote folder</title>
 
-  <p><app>Disk Usage Analyzer</app> can scan storage devices which are
+  <p><app>Memory Usage Analyzer</app> can scan storage devices which are
   accessible remotely. To scan the whole file system or any specific folder
   remotely:</p>
 

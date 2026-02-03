@@ -24,16 +24,16 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc><app>Disk Usage Analyzer</app> is an application which shows you your use of storage space using graphs.</desc>
+    <desc><app>Memory Usage Analyzer</app> is an application which shows you your use of storage space using graphs.</desc>
 
   </info>
 
   <title>Introduction</title>
 
-  <p><app>Disk Usage Analyzer</app> is a graphical application for analysing
+  <p><app>Memory Usage Analyzer</app> is a graphical application for analysing
   storage device usage. It can be used to scan multiple local or remote storage
   devices, including hard disks, SSDs, USB sticks, digital cameras and memory
-  cards. <app>Disk Usage Analyzer</app> can scan either the
+  cards. <app>Memory Usage Analyzer</app> can scan either the
   <link xref="scan-file-system">whole file system</link>,
   <link xref="scan-home">your <file>Home</file> directory</link>,
   <link xref="scan-folder">a specified folder</link> or

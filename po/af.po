@@ -18,16 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.7\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: src/baobab-main-window.ui:93
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Skyfgebruik"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Kontroleer gidsgroottes en beskikbare skyfspasie"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -35,9 +35,9 @@ msgstr ""
 "'n Eenvoudige toepassing om u skyfgebruik en beskikbare spasie onder beheer "
 "te hou."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -46,49 +46,49 @@ msgstr ""
 "elke gids aandui, wat dit maklik maak om te identifiseer waar skyfspasie "
 "vermors word."
 
-#: data/org.gnome.baobab.appdata.xml.in:34
+#: data/freynaldo.baoram.appdata.xml.in:34
 msgid "The GNOME Project"
 msgstr "Die GNOME Projek"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "stoor;spasie;skoonmaak;"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.baobab.desktop.in:10
+#: data/freynaldo.baoram.desktop.in:10
 msgid "baobab"
 msgstr "baobab"
 
-#: data/org.gnome.baobab.gschema.xml.in:9
+#: data/freynaldo.baoram.gschema.xml.in:9
 msgid "Excluded partitions URIs"
 msgstr "Uitgesluite partisies URIs"
 
-#: data/org.gnome.baobab.gschema.xml.in:10
+#: data/freynaldo.baoram.gschema.xml.in:10
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "'n lys URIs vir partisies wat nie geskandeer word nie."
 
-#: data/org.gnome.baobab.gschema.xml.in:20
+#: data/freynaldo.baoram.gschema.xml.in:20
 msgid "Active Chart"
 msgstr "Aktiewe grafiek"
 
-#: data/org.gnome.baobab.gschema.xml.in:21
+#: data/freynaldo.baoram.gschema.xml.in:21
 msgid "Which type of chart should be displayed."
 msgstr "Watter tipe grafiek moet vertoon word."
 
-#: data/org.gnome.baobab.gschema.xml.in:25
+#: data/freynaldo.baoram.gschema.xml.in:25
 msgid "Window size"
 msgstr "Venstergrootte"
 
-#: data/org.gnome.baobab.gschema.xml.in:26
+#: data/freynaldo.baoram.gschema.xml.in:26
 msgid "The initial size of the window"
 msgstr "Die oorspronklike grootte van die venster"
 
-#: data/org.gnome.baobab.gschema.xml.in:30
+#: data/freynaldo.baoram.gschema.xml.in:30
 msgid "Window state"
 msgstr "Vensterstaat"
 
-#: data/org.gnome.baobab.gschema.xml.in:31
+#: data/freynaldo.baoram.gschema.xml.in:31
 msgid "The GdkWindowState of the window"
 msgstr "Die GdkWindowState van die venster"
 
@@ -243,7 +243,7 @@ msgid "Failed to show help"
 msgstr "Kon nie hulp vertoon nie"
 
 #: src/baobab-window.vala:304
-msgid "Baobab"
+msgid "Baoram"
 msgstr "Kremetart"
 
 #: src/baobab-window.vala:307

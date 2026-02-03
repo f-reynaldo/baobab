@@ -21,25 +21,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.04.3\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:267
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "ਡਿਸਕ ਵਰਤੋਂ ਜਾਂਚਕਾਰ"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "ਫੋਲਡਰ ਸਾਇਜ਼ ਅਤੇ ਉਪਲੱਬਧ ਡਿਸਕ ਥਾਂ ਚੈੱਕ ਕਰੋ"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr ""
 "ਤੁਹਾਡੀ ਡਿਸਕ ਵਰਤੋਂ ਅਤੇ ਮੌਜੂਦਾ ਖਾਲੀ ਥਾਂ ਨੂੰ ਕੰਟਰੋਲ ਹੇਠ ਰੱਖਣ ਲਈ ਸਰਲ ਐਪਲੀਕੇਸ਼ਨ ਹੈ।"
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -49,55 +49,55 @@ msgstr ""
 " ਨਾਲ ਪਛਾਣਨਾ "
 "ਸੌਖਾ ਹੋ ਜਾਂਦਾ ਹੈ ਕਿ ਕਿੱਥੇ ਡਿਸਕ ਦੀ ਥਾਂ ਬੇਕਾਰ ਪਈ ਹੈ।"
 
-#: data/org.gnome.baobab.appdata.xml.in:20
+#: data/freynaldo.baoram.appdata.xml.in:20
 #| msgid "Devices and Locations"
 msgid "Devices and Locations View"
 msgstr "ਡਿਵਾਈਸ ਅਤੇ ਟਿਕਾਣੇ ਵੇਖੋ"
 
-#: data/org.gnome.baobab.appdata.xml.in:24
+#: data/freynaldo.baoram.appdata.xml.in:24
 #| msgid "Scan"
 msgid "Scan View"
 msgstr "ਜਾਂਚ ਝਲਕ"
 
-#: data/org.gnome.baobab.appdata.xml.in:39 src/baobab-window.vala:269
+#: data/freynaldo.baoram.appdata.xml.in:39 src/baobab-window.vala:269
 msgid "The GNOME Project"
 msgstr "ਗਨੋਮ ਪਰੋਜੈਕਟ"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "ਸਟੋਰੇਜ਼;ਥਾਂ;ਸਫ਼ਾਈ;storage;space;cleanup;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "ਅਲਹਿਦਾ ਰੱਖੇ ਗਏ ਟਿਕਾਣੇ URI"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "ਸਕੈਨ ਤੋਂ ਅਲਹਿਦਾ ਰੱਖੇ ਟਿਕਾਣਿਆਂ ਲਈ URI ਦੀ ਲਿਸਟ ਹੈ।"
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "ਸਰਗਰਮ ਚਾਰਟ"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "ਕਿਸ ਕਿਸਮ ਦੇ ਚਾਰਟ ਵੇਖਾਈ ਦੇਣੇ ਚਾਹੀਦੇ ਹਨ।"
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "ਵਿੰਡੋ ਆਕਾਰ"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "ਵਿੰਡੋ ਦੀ ਸ਼ੁਰੂਆਤੀ ਆਕਾਰ"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 #| msgid "Window size"
 msgid "Window Maximized"
 msgstr "ਵਿੰਡੋ ਵੱਧੋ-ਵੱਧ ਕੀਤੀ"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "ਕੀ ਵਿੰਡੋ ਨੂੰ ਵੱਧੋ-ਵੱਧ ਕਰਨਾ ਹੈ ਜਾਂ ਨਹੀ"
 
@@ -220,7 +220,7 @@ msgid "_Help"
 msgstr "ਮਦਦ(_H)"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "ਡਿਸਕ ਵਰਤੋਂ ਜਾਂਚਕਾਰ ਕਰਤਾ ਬਾਰੇ(_A)"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:540
@@ -452,7 +452,7 @@ msgstr "“%s” ਵਾਜਬ ਫੋਲਡਰ ਨਹੀਂ ਹੈ"
 #~ msgid "Scan Remote Folder…"
 #~ msgstr "…ਰਿਮੋਟ ਫੋਲਡਰ ਜਾਂਚ"
 
-#~ msgid "Baobab"
+#~ msgid "Baoram"
 #~ msgstr "ਬੋਹੜ"
 
 #~| msgid "Could not scan folder \"%s\" or some of the folders it contains."
@@ -533,7 +533,7 @@ msgstr "“%s” ਵਾਜਬ ਫੋਲਡਰ ਨਹੀਂ ਹੈ"
 #~ msgid "_Allocated Space"
 #~ msgstr "ਜਾਰੀ ਕੀਤੀ ਥਾਂ(_o)"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "ਡਿਸਕ ਵਰਤੋਂ ਜਾਂਚਕਾਰ ਪਸੰਦ"
 
 #~| msgid "Select _devices to include in filesystem scan:"

@@ -17,16 +17,16 @@ msgstr ""
 "X-Project-Style: gnome\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:260
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Испитивач искоришћености диска"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Проверите величине фасцикли и слободан простор на диску"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -34,9 +34,9 @@ msgstr ""
 "Једноставан програм за држање искоришћености диска и доступног простора под "
 "контролом."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -45,53 +45,53 @@ msgstr ""
 "графика показујући величину сваке фасцикле, олакшавајући откривање "
 "изгубљеног простора на диску."
 
-#: data/org.gnome.baobab.appdata.xml.in:20
+#: data/freynaldo.baoram.appdata.xml.in:20
 msgid "Devices and Locations View"
 msgstr "Преглед уређаја и места"
 
-#: data/org.gnome.baobab.appdata.xml.in:24
+#: data/freynaldo.baoram.appdata.xml.in:24
 msgid "Scan View"
 msgstr "Преглед испитивања"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.appdata.xml.in:43 src/baobab-window.vala:262
+#: data/freynaldo.baoram.appdata.xml.in:43 src/baobab-window.vala:262
 msgid "The GNOME Project"
 msgstr "Гномов пројекат"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "смештај;складиштење;простор;чишћење;storage;space;cleanup;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "Искључени УРИ-ји места"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "Списак УРИ-ја за места која треба искључити из испитивања."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Активни графикон"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Врста графика који ће бити приказан."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Величина прозора"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "Почетна величина прозора"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "Увећан прозор"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "Да ли је прозор увећан"
 
@@ -213,7 +213,7 @@ msgid "_Help"
 msgstr "По_моћ"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "_О Испитивачу искоришћености диска"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:571
@@ -439,10 +439,10 @@ msgstr "„%s“ није исправна фасцикла"
 #~ msgid "Failed to show help"
 #~ msgstr "Нисам успео да прикажем помоћ"
 
-#~ msgid "org.gnome.baobab"
-#~ msgstr "org.gnome.baobab"
+#~ msgid "freynaldo.baoram"
+#~ msgstr "freynaldo.baoram"
 
-#~ msgid "Baobab"
+#~ msgid "Baoram"
 #~ msgstr "Баобаб"
 
 #~ msgid "Could not scan some of the folders contained in “%s”"

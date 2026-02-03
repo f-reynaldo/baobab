@@ -22,70 +22,70 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 "X-Project-Style: gnome\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3 src/baobab-main-window.ui:93
-msgid "Disk Usage Analyzer"
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3 src/baobab-main-window.ui:93
+msgid "Memory Usage Analyzer"
 msgstr "ഡിസ്ക് യൂസേജ് അനലൈസർ"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "ഫോൾഡറുകളുടെ വ്യാപ്തിയും ഡിസ്കില്‍ ലഭ്യമായ സ്ഥലവും പരിശോധിയ്ക്കുക"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid "A simple application to keep your disk usage and available space under control."
 msgstr "താങ്കളുടെ ഡിസ്ക് ഉപഭോഗവും ലഭ്യമായ സ്ഥലവും നിയന്ത്രണവിധേയമാക്കാനുള്ള ഒരു ലളിതമായ പ്രയോഗം."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online accounts. It provides both a "
+"Memory Usage Analyzer can scan specific folders, storage devices and online accounts. It provides both a "
 "tree and a graphical representation showing the size of each folder, making it easy to identify where disk "
 "space is wasted."
 msgstr ""
 "ഡിസ്ക് യൂസേജ് അനലൈസറിനു് പ്രത്യേക ഫോൾഡറുകൾ, സംഭരണ ഉപകരണങ്ങൾ, ഓൺലൈൻ അക്കൗണ്ടുകൾ എന്നിവ പരതാൻ സാധിക്കും. അത് ഓരോ ഫോൾഡറിന്റേയും "
 "വൃക്ഷരൂപത്തിലും ചിത്രരൂപത്തിലുമുള്ള മാതൃകകൾ നൽകുന്നതുവഴി, ഡിസ്കിലെ സ്ഥലം എവിടെയാണ് നഷ്ടമാകുന്നതെന്ന് തിരിച്ചറിയൽ എളുപ്പമാക്കുന്നു."
 
-#: data/org.gnome.baobab.appdata.xml.in:34
+#: data/freynaldo.baoram.appdata.xml.in:34
 msgid "The GNOME Project"
 msgstr "ഗ്നോം പ്രൊജക്ട്"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "storage;space;cleanup;"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.baobab.desktop.in:10
+#: data/freynaldo.baoram.desktop.in:10
 msgid "baobab"
 msgstr "baobab"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded partitions URIs"
 msgstr "ഉള്‍‌പ്പെടുത്താത്ത ഭാഗങ്ങളുടെ യുആര്‍ഐകള്‍"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "പരിശോധന ആവശ്യമില്ലാത്ത ഭാഗങ്ങളുടെ യുആര്‍ഐ പട്ടിക."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "സജീവ ചാർട്ട്"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "ഏതു് തരം ചാർട്ടാണ് കാണിയ്ക്കേണ്ടതു്."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "ജാലകത്തിന്റെ വലിപ്പം"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "ജാലകത്തിന്റെ പ്രാരംഭ വലിപ്പം"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window state"
 msgstr "ജാലകത്തിന്റെ അവസ്ഥ"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "The GdkWindowState of the window"
 msgstr "ജാലകത്തിന്റെ GdkWindowState"
 
@@ -240,7 +240,7 @@ msgid "Failed to show help"
 msgstr "സഹായം കാണിയ്ക്കുന്നതില്‍ പരാജയപ്പെട്ടു"
 
 #: src/baobab-window.vala:304
-msgid "Baobab"
+msgid "Baoram"
 msgstr "ബാവോബാബ്"
 
 #: src/baobab-window.vala:307
@@ -329,7 +329,7 @@ msgstr "ചെറുതാക്കുക (_o)"
 #~ msgid "Scan Remote Folder…"
 #~ msgstr "ദൂരെയുള്ള ഫോള്‍ഡര്‍ പരിശോധിയ്ക്കുക…"
 
-#~ msgid "- Disk Usage Analyzer"
+#~ msgid "- Memory Usage Analyzer"
 #~ msgstr "- ഡിസ്ക് ഉപയോഗ വിശകലനി"
 
 #~ msgid "Maximum depth"
@@ -403,7 +403,7 @@ msgstr "ചെറുതാക്കുക (_o)"
 #~ msgid "_Allocated Space"
 #~ msgstr "_നല്‍കിയ സ്ഥലം"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "ഡിസ്ക് ഉപയോഗ വിശകലനിയുടെ മുന്‍ഗണനകള്‍"
 
 #~ msgid "Select _devices to include in file system scan:"

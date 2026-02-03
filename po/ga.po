@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 
 #: ../data/baobab.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Anailíseoir Úsáid Diosca"
 
 #: ../data/baobab.desktop.in.in.h:2
@@ -40,35 +40,35 @@ msgstr "Seiceáil méideanna fillteán agus spás diosca le fáil"
 msgid "storage;space;cleanup;"
 msgstr "stóras;spás;glanadh;"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:1
 msgid "Excluded partitions URIs"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:2
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:3
 msgid "Active Chart"
 msgstr "Cairt Ghníomhach"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:4
 msgid "Which type of chart should be displayed."
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:5
 msgid "Window size"
 msgstr "Méid na fuinneoige"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:6
 msgid "The initial size of the window"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:7
 msgid "Window state"
 msgstr "Staid na fuinneoige"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:8
 msgid "The GdkWindowState of the window"
 msgstr ""
 
@@ -77,7 +77,7 @@ msgid "Print version information and exit"
 msgstr ""
 
 #: ../src/baobab-application.vala:99
-msgid "- Disk Usage Analyzer"
+msgid "- Memory Usage Analyzer"
 msgstr "- Anailíseoir Úsáid Diosca"
 
 #: ../src/baobab-cellrenderers.vala:91
@@ -238,8 +238,8 @@ msgid "Failed to show help"
 msgstr "Theip ar thaispeáint chabhrach"
 
 #: ../src/baobab-window.vala:330
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/baobab-window.vala:333
 msgid "A graphical tool to analyze disk usage."

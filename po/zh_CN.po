@@ -28,77 +28,77 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Gtranslator 49.0\n"
 
-#: data/org.gnome.baobab.desktop.in:2 data/org.gnome.baobab.metainfo.xml.in:6
+#: data/freynaldo.baoram.desktop.in:2 data/freynaldo.baoram.metainfo.xml.in:6
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:262
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "磁盘占用分析器"
 
-#: data/org.gnome.baobab.desktop.in:3 data/org.gnome.baobab.metainfo.xml.in:7
+#: data/freynaldo.baoram.desktop.in:3 data/freynaldo.baoram.metainfo.xml.in:7
 msgid "Check folder sizes and available disk space"
 msgstr "检查文件夹大小和可用磁盘空间"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:5
+#: data/freynaldo.baoram.desktop.in:5
 msgid "storage;space;cleanup;"
 msgstr "storage;space;cleanup;存储;空间;清理;占用;磁盘使用;硬盘;固态;机械;"
 
-#: data/org.gnome.baobab.metainfo.xml.in:9
+#: data/freynaldo.baoram.metainfo.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr "一个简单的应用程序，保持你的磁盘使用情况和可用空间处于控制。"
 
-#: data/org.gnome.baobab.metainfo.xml.in:12
+#: data/freynaldo.baoram.metainfo.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
 "磁盘占用分析器可以扫描指定的文件夹、存储设备和在线账号。它同时提供了树形和图"
 "形展示来显示每个文件夹的大小，因此可以很容易的识别出哪里的磁盘空间被浪费了。"
 
-#: data/org.gnome.baobab.metainfo.xml.in:20
+#: data/freynaldo.baoram.metainfo.xml.in:20
 msgid "Devices and Locations View"
 msgstr "设备与位置"
 
-#: data/org.gnome.baobab.metainfo.xml.in:24
+#: data/freynaldo.baoram.metainfo.xml.in:24
 msgid "Scan View"
 msgstr "扫描视图"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.metainfo.xml.in:41 src/baobab-window.vala:264
+#: data/freynaldo.baoram.metainfo.xml.in:41 src/baobab-window.vala:264
 msgid "The GNOME Project"
 msgstr "GNOME 项目"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "排除的位置 URI"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "将被排除扫描的位置 URI 列表。"
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "活动图"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "显示哪种类型的图表。"
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "窗口大小"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "初始窗口大小"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "窗口已最大化"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "窗口是否已经最大化"
 
@@ -175,7 +175,7 @@ msgid "_Help"
 msgstr "帮助(_H)"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "关于磁盘占用分析器(_A)"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:584
@@ -455,8 +455,8 @@ msgstr "“%s”不是有效的文件夹"
 #~ msgid "Could not scan some of the folders contained in “%s”"
 #~ msgstr "无法扫描“%s”所包含的某些文件夹"
 
-#~ msgid "Baobab"
-#~ msgstr "Baobab"
+#~ msgid "Baoram"
+#~ msgstr "Baoram"
 
 #~ msgid "baobab"
 #~ msgstr "baobab"

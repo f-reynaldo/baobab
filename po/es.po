@@ -28,16 +28,16 @@ msgstr ""
 "X-Generator: Gtranslator 46.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:260
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analizador de uso de disco"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Compruebe el tamaño de las carpetas y el espacio disponible en disco"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -45,9 +45,9 @@ msgstr ""
 "Una sencilla aplicación para mantener el uso de disco y el espacio en disco "
 "bajo control."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -56,53 +56,53 @@ msgstr ""
 "vista de árbol como una representación gráfica del tamaño de cada carpeta, "
 "simplificando la identificación de dónde se consume el espacio."
 
-#: data/org.gnome.baobab.appdata.xml.in:20
+#: data/freynaldo.baoram.appdata.xml.in:20
 msgid "Devices and Locations View"
 msgstr "Vista de dispositivos y ubicaciones"
 
-#: data/org.gnome.baobab.appdata.xml.in:24
+#: data/freynaldo.baoram.appdata.xml.in:24
 msgid "Scan View"
 msgstr "Vista de análisis"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.appdata.xml.in:43 src/baobab-window.vala:262
+#: data/freynaldo.baoram.appdata.xml.in:43 src/baobab-window.vala:262
 msgid "The GNOME Project"
 msgstr "El Proyecto GNOME"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "almacenamiento;espacio;limpieza;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "URI de las ubicaciones excluidas"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "Una lista de URI para las ubicaciones que excluir del análisis."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Gráfico activo"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Qué tipo de gráfico se debe mostrar."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Tamaño de la ventana"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "El tamaño inicial de la ventana"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "Ventana maximizada"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "Indica is la ventana está o no maximizada"
 
@@ -224,7 +224,7 @@ msgid "_Help"
 msgstr "Ay_uda"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "_Acerca del analizador de uso de disco"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:571
@@ -456,11 +456,11 @@ msgstr "«%s» no es una carpeta válida"
 #~ msgid "Could not scan some of the folders contained in “%s”"
 #~ msgstr "No se pudieron analizar algunas de las carpetas de «%s»."
 
-#~ msgid "org.gnome.baobab"
-#~ msgstr "org.gnome.baobab"
+#~ msgid "freynaldo.baoram"
+#~ msgstr "freynaldo.baoram"
 
-#~ msgid "Baobab"
-#~ msgstr "Baobab"
+#~ msgid "Baoram"
+#~ msgstr "Baoram"
 
 #~ msgid "baobab"
 #~ msgstr "baobab"
@@ -590,7 +590,7 @@ msgstr "«%s» no es una carpeta válida"
 #~ msgid "_Image type:"
 #~ msgstr "Tipo de _imagen:"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "Preferencias del analizador de uso de disco"
 
 #~ msgid "Select _devices to include in file system scan:"

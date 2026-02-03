@@ -25,11 +25,11 @@ msgid "Check folder sizes and available disk space"
 msgstr "ពិនិត្យ​មើល​ទំហំ​ថត និង​ទំហំ​ថាស​ដែល​អាច​ប្រើ​បាន"
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "កម្មវិធី​វិភាគ​ការ​ប្រើ​ថាស"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "ចំណូលចិត្ត​កម្មវិធី​វិភាគ​ការ​ប្រើ​ថាស"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -40,46 +40,46 @@ msgstr "ជ្រើស​ឧបករណ៍​ដើម្បី​រួមប
 msgid "_Monitor changes to your home folder"
 msgstr "ត្រួតពិនិត្យ​ការ​ផ្លាស់ប្ដូរ​ចំពោះ​ថត​ផ្ទះ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr ""
 "បញ្ជី URIs សម្រាប់​ភាគថាស​ដែល​នឹង​មិន​ត្រូវ​​រួមបញ្ចូល​ក្នុង​ការ​វិភាគរក ។"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr "គំនូសតាង​សកម្ម"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 msgid "Excluded partitions URIs"
 msgstr "URIs ភាគថាស​ដែល​មិន​រួមបញ្ចូល"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 msgid "Monitor Home"
 msgstr "ត្រួតពិនិត្យ​ផ្ទះ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
 msgstr "របារ​ស្ថានភាពដែល​​មើលឃើញ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "របារ​ឧបករណ៍​ដែល​មើលឃើញ"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr ""
 "ថាតើ​ការ​ផ្លាស់ប្ដូរ​ណាមួយ​ទៅ​លើ​ថត​ផ្ទះ​គួរតែ​ត្រូវ​បាន​ត្រួតពិនិត្យ​ដែរ​ឬទ"
 "េ ។"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr "ថាតើ​របារ​ស្ថានភាព​នៅ​ខាងក្រោម​នៃ​បង្អួច​មេគួរតែ​អាច​មើល​ឃើញ​ដែរ​ឬទេ ។"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr "ថាតើ​របារ​ឧបរកណ៍​គួរតែ​អាច​មើល​ឃើញ​នៅ​ក្នុង​បង្អួច​មេ​ដែរ​ឬទេ ។"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
 msgstr "ប្រភេទ​គំនូសតាង​ណាមួយ​ដែល​គួរតែ​បង្ហាញ ។"
 
@@ -547,8 +547,8 @@ msgstr ""
 "Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 
 #: ../src/callbacks.c:100
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/callbacks.c:101
 msgid "A graphical tool to analyze disk usage."

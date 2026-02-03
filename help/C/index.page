@@ -4,9 +4,9 @@
       id="index">
 
   <info>
-    <title type="text">Disk Usage Analyzer help</title>
-    <title type="link">Disk Usage Analyzer</title>
-    <title type="link" role="trail">Disk Usage Analyzer</title>
+    <title type="text">Memory Usage Analyzer help</title>
+    <title type="link">Memory Usage Analyzer</title>
+    <title type="link" role="trail">Memory Usage Analyzer</title>
 
     <revision pkgversion="3.8" date="2013-07-24" status="final"/>
     <revision pkgversion="3.14" date="2014-10-01" status="final"/>
@@ -22,15 +22,15 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc><app>Disk Usage Analyzer</app> is a graphical storage device
+    <desc><app>Memory Usage Analyzer</app> is a graphical storage device
     scanner.</desc>
 
   </info>
 
   <title>
     <media type="image" width="48px" height="48px" its:translate="no"
-    src="media/org.gnome.baobab.svg" />
-    Disk Usage Analyzer
+    src="media/freynaldo.baoram.svg" />
+    Memory Usage Analyzer
   </title>
 
   <section id="scan" style="2column">

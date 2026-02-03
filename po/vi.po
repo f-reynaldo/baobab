@@ -21,16 +21,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: data/ui/baobab-main-window.ui:66 src/baobab-window.vala:292
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Bộ phân tích đĩa"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Kiểm tra kích cỡ của thư mục và chỗ trống trên đĩa"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -38,9 +38,9 @@ msgstr ""
 "Một ứng dụng đơn giản để giúp bạn kiểm soát dung lượng đĩa tiêu dùng và còn "
 "lại."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -49,49 +49,49 @@ msgstr ""
 "đồ họa của kích thước của từng thư mục, làm cho nó dễ dàng chỉ ra chỗ đĩa "
 "nào đang bị lãng phí."
 
-#: data/org.gnome.baobab.appdata.xml.in:23
+#: data/freynaldo.baoram.appdata.xml.in:23
 msgid "Devices and Locations"
 msgstr "Thiết bị và Vị trí"
 
-#: data/org.gnome.baobab.appdata.xml.in:38
+#: data/freynaldo.baoram.appdata.xml.in:38
 msgid "The GNOME Project"
 msgstr "Dự án GNOME"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr ""
 "storage;space;cleanup;kho;chứa;đĩa;dia;trống;trong;dọn dẹp;don dep;xóa;xoa;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "Các URI vị trí cần loại trừ"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "Danh sách các URI cho các vị trí cần loại trừ không quét."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Biểu đồ hoạt động"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Hiển thị bằng loại biểu đồ nào."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Kích cỡ cửa sổ"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "Cỡ khởi tạo của cửa sổ"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window state"
 msgstr "Trạng thái cửa sổ"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "The GdkWindowState of the window"
 msgstr "GdkWindowState của cửa sổ"
 
@@ -213,7 +213,7 @@ msgid "_Help"
 msgstr "T_rợ giúp"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "_Giới thiệu Bộ phân tích đĩa"
 
 #: data/ui/baobab-main-window.ui:85
@@ -398,12 +398,12 @@ msgstr "“%s” không phải là thư mục hợp lệ"
 msgid "Could not analyze disk usage."
 msgstr "Không thể phân tích về cách sử dụng đĩa."
 
-#~ msgid "org.gnome.baobab"
-#~ msgstr "org.gnome.baobab"
+#~ msgid "freynaldo.baoram"
+#~ msgstr "freynaldo.baoram"
 
 # Name: don't translate / Tên: đừng dịch
-#~ msgid "Baobab"
-#~ msgstr "Baobab"
+#~ msgid "Baoram"
+#~ msgstr "Baoram"
 
 #~ msgid "Could not scan some of the folders contained in “%s”"
 #~ msgstr "Không thể quét một số thư mục nằm trong “%s”"

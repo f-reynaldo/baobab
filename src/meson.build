@@ -2,48 +2,48 @@ vapi_sources = [
   'config.vapi',
 ]
 
-baobab_vala_sources = [
-  'baobab-application.vala',
-  'baobab-cellrenderers.vala',
-  'baobab-chart.vala',
-  'baobab-contents-cell.vala',
-  'baobab-file-cell.vala',
-  'baobab-folder-cell.vala',
-  'baobab-folder-display.vala',
-  'baobab-location-list.vala',
-  'baobab-location.vala',
-  'baobab-name-cell.vala',
-  'baobab-pathbar.vala',
-  'baobab-preferences-dialog.vala',
-  'baobab-progress-cell.vala',
-  'baobab-ringschart.vala',
-  'baobab-scanner.vala',
-  'baobab-size-cell.vala',
-  'baobab-time-modified-cell.vala',
-  'baobab-tree-list-row-sorter.vala',
-  'baobab-treemap.vala',
-  'baobab-window.vala',
+baoram_vala_sources = [
+  'baoram-application.vala',
+  'baoram-cellrenderers.vala',
+  'baoram-chart.vala',
+  'baoram-contents-cell.vala',
+  'baoram-file-cell.vala',
+  'baoram-folder-cell.vala',
+  'baoram-folder-display.vala',
+  'baoram-location-list.vala',
+  'baoram-location.vala',
+  'baoram-name-cell.vala',
+  'baoram-pathbar.vala',
+  'baoram-preferences-dialog.vala',
+  'baoram-progress-cell.vala',
+  'baoram-ringschart.vala',
+  'baoram-scanner.vala',
+  'baoram-size-cell.vala',
+  'baoram-time-modified-cell.vala',
+  'baoram-tree-list-row-sorter.vala',
+  'baoram-treemap.vala',
+  'baoram-window.vala',
   'main.vala'
 ]
 
-baobab_sources = [
+baoram_sources = [
   vapi_sources,
-  baobab_vala_sources,
+  baoram_vala_sources,
   resources
 ]
 
-baobab_vala_args = [
+baoram_vala_args = [
   '--target-glib', '2.44',
   '--vapidir', meson.current_source_dir(),
   '--gresources', resource_files,
   '--pkg', 'posix',
 ]
 
-baobab_c_args = [
+baoram_c_args = [
   '-include', 'config.h'
 ]
 
-baobab_dependencies = [
+baoram_dependencies = [
   glib,
   gio,
   gobject,
@@ -52,11 +52,11 @@ baobab_dependencies = [
   math
 ]
 
-executable('baobab', baobab_sources,
+executable('baoram', baoram_sources,
   include_directories: config_h_dir,
-  vala_args: baobab_vala_args,
-  c_args: baobab_c_args,
-  dependencies: baobab_dependencies,
+  vala_args: baoram_vala_args,
+  c_args: baoram_c_args,
+  dependencies: baoram_dependencies,
   export_dynamic: true,
   win_subsystem: 'windows',
   install: true

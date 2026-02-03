@@ -357,7 +357,7 @@
 
 42.0
 =========
-Disk Usage Analyzer 42.0 comes with a port to libadwaita,
+Memory Usage Analyzer 42.0 comes with a port to libadwaita,
 updated styling, and updated translations for the following locales:
 
  - Basque
@@ -420,7 +420,7 @@ updated styling, and updated translations for the following locales:
 
 42.alpha
 =========
-Disk Usage Analyzer 42.alpha comes with a port to GTK4
+Memory Usage Analyzer 42.alpha comes with a port to GTK4
 and libadwaita. In addition, Zander Brown adjusted our
 styling so that numbers in cells are aligned, keeping
 the UI from shifting during scanning.
@@ -444,7 +444,7 @@ the UI from shifting during scanning.
 41.0
 =======
 
-Disk Usage Analyzer 41 comes with support for building the GUI on windows,
+Memory Usage Analyzer 41 comes with support for building the GUI on windows,
 contributed Gabriel Rauter.
 
 * Translation updates:
@@ -466,7 +466,7 @@ contributed Gabriel Rauter.
 40.0
 =======
 
-Disk Usage Analyzer's visuals have been updated to match the GNOME 40 visual style.
+Memory Usage Analyzer's visuals have been updated to match the GNOME 40 visual style.
 
 * Translation updates:
  - Basque
@@ -536,7 +536,7 @@ Disk Usage Analyzer's visuals have been updated to match the GNOME 40 visual sty
   * Files are now shown in the UI
   * Many fixes for the location list, including duplication issues and a
     problem with network locations blocking the UI
-  * Disk Usage Analyzer now shows up in the list of recommended applications for folders
+  * Memory Usage Analyzer now shows up in the list of recommended applications for folders
   * Mount points are now excluded only if on different filesystems
   * Visual fixes (tooltips, sorting of recent items)
   * Added the possibility to clear the recent list

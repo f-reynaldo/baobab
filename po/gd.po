@@ -20,25 +20,25 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in.in:3
 #: src/baobab-main-window.ui:44
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Sgrùdair cleachdadh nan diosga"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Thoir sùil air meud nam pasganan ’s an rum shaor air an diosga"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr ""
 "Aplacaid shimplidh gus smachd a chumail air an àite air na diosgan agad."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -47,50 +47,50 @@ msgstr ""
 "craoibhe is riochdachadh grafaigeach dhut a sheallas meud gach pasgain ach "
 "am faic thu gun duilgheadas càit a bheil àite ’ga chaitheamh air an diosga."
 
-#: data/org.gnome.baobab.appdata.xml.in:34
+#: data/freynaldo.baoram.appdata.xml.in:34
 msgid "The GNOME Project"
 msgstr "Pròiseact GNOME"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in.in:6
+#: data/freynaldo.baoram.desktop.in.in:6
 msgid "storage;space;cleanup;"
 msgstr ""
 "storage;space;cleanup;stòras;rum;àite;glanadh;sgioblachadh;sgioblaich;diosga;"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.baobab.desktop.in.in:10
+#: data/freynaldo.baoram.desktop.in.in:10
 msgid "baobab"
 msgstr "baobab"
 
-#: data/org.gnome.baobab.gschema.xml.in:9
+#: data/freynaldo.baoram.gschema.xml.in:9
 msgid "Excluded partitions URIs"
 msgstr "URIean nam pàirteachaidhean a thèid a leigeil seachad"
 
-#: data/org.gnome.baobab.gschema.xml.in:10
+#: data/freynaldo.baoram.gschema.xml.in:10
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Liosta de URIean nam pàirteachaidhean nach tèid a sganadh."
 
-#: data/org.gnome.baobab.gschema.xml.in:20
+#: data/freynaldo.baoram.gschema.xml.in:20
 msgid "Active Chart"
 msgstr "Cairt ghnìomhach"
 
-#: data/org.gnome.baobab.gschema.xml.in:21
+#: data/freynaldo.baoram.gschema.xml.in:21
 msgid "Which type of chart should be displayed."
 msgstr "Seòrsa na cairte a thèid a shealltainn."
 
-#: data/org.gnome.baobab.gschema.xml.in:25
+#: data/freynaldo.baoram.gschema.xml.in:25
 msgid "Window size"
 msgstr "Meud na h-uinneige"
 
-#: data/org.gnome.baobab.gschema.xml.in:26
+#: data/freynaldo.baoram.gschema.xml.in:26
 msgid "The initial size of the window"
 msgstr "Meud tùsail na h-uinneige"
 
-#: data/org.gnome.baobab.gschema.xml.in:30
+#: data/freynaldo.baoram.gschema.xml.in:30
 msgid "Window state"
 msgstr "Staid na h-uinneige"
 
-#: data/org.gnome.baobab.gschema.xml.in:31
+#: data/freynaldo.baoram.gschema.xml.in:31
 msgid "The GdkWindowState of the window"
 msgstr "GdkWindowState na h-uinneige"
 
@@ -255,7 +255,7 @@ msgid "Failed to show help"
 msgstr "Cha deach leinn a’ chobhair a shealltainn"
 
 #: src/baobab-window.vala:284
-msgid "Baobab"
+msgid "Baoram"
 msgstr "Bathobab"
 
 #: src/baobab-window.vala:287

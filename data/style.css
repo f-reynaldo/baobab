@@ -1,19 +1,19 @@
-cell .baobab-cell-error {
+cell .baoram-cell-error {
     color: var(--error-color);
     font-weight: 700;
 }
 
-cell .baobab-cell-warning {
+cell .baoram-cell-warning {
     color: var(--warning-color);
     font-weight: 700;
 }
 
-cell .baobab-cell-warning:selected,
-cell .baobab-cell-error:selected {
+cell .baoram-cell-warning:selected,
+cell .baoram-cell-error:selected {
     color: var(--accent-fg-color);
 }
 
-cell box.baobab-cell-box {
+cell box.baoram-cell-box {
     border-spacing: 6px;
 }
 

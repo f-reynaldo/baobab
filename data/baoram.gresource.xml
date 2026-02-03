@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/freynaldo/baoram">
+    <file compressed="true">style.css</file>
+    <file compressed="true">ui/baoram-contents-cell.ui</file>
+    <file compressed="true">ui/baoram-excluded-row.ui</file>
+    <file compressed="true">ui/baoram-file-cell.ui</file>
+    <file compressed="true">ui/baoram-folder-cell.ui</file>
+    <file compressed="true">ui/baoram-folder-display.ui</file>
+    <file compressed="true">ui/baoram-location-list.ui</file>
+    <file compressed="true">ui/baoram-location-row.ui</file>
+    <file compressed="true">ui/baoram-main-window.ui</file>
+    <file compressed="true">ui/baoram-name-cell.ui</file>
+    <file compressed="true">ui/baoram-pathbar.ui</file>
+    <file compressed="true">ui/baoram-pathbutton.ui</file>
+    <file compressed="true">ui/baoram-preferences-dialog.ui</file>
+    <file compressed="true">ui/baoram-size-cell.ui</file>
+    <file compressed="true">ui/baoram-time-modified-cell.ui</file>
+    <file compressed="true">ui/baoram-treeview-menu.ui</file>
+    <file compressed="true" alias="shortcuts-dialog.ui">ui/shortcuts-dialog.ui</file>
+    <file compressed="true">gtk/menus.ui</file>
+    <file compressed="true">icons/scalable/actions/view-ringschart-symbolic.svg</file>
+    <file compressed="true">icons/scalable/actions/view-treemap-symbolic.svg</file>
+  </gresource>
+</gresources>

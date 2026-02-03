@@ -29,7 +29,7 @@ msgstr ""
 "\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/org.gnome.baobab.appdata.xml.in.h:1
+#: ../data/freynaldo.baoram.appdata.xml.in.h:1
 msgid ""
 "A simple application which can scan either specific folders (local or "
 "remote) or volumes and give a graphical representation including each "
@@ -39,47 +39,47 @@ msgstr ""
 "असू शकते आणि ग्राफिकल प्रस्तुतिकरण दाखवते, प्रत्येक डिरेक्ट्री आकार किंवा "
 "टक्केवारी समाविष्टीत."
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
-msgid "Disk Usage Analyzer"
+#: ../data/freynaldo.baoram.desktop.in.in.h:1 ../src/baobab-main-window.ui.h:6
+msgid "Memory Usage Analyzer"
 msgstr "डीस्क वापर विश्लेषक"
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:2
+#: ../data/freynaldo.baoram.desktop.in.in.h:2
 msgid "Check folder sizes and available disk space"
 msgstr "फोल्डर आकार व उपलब्ध डीस्क जागा तपासा"
 
-#: ../data/org.gnome.baobab.desktop.in.in.h:3
+#: ../data/freynaldo.baoram.desktop.in.in.h:3
 msgid "storage;space;cleanup;"
 msgstr "स्टोरेज;स्पेस;क्लिनअप;"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:1
 msgid "Excluded partitions URIs"
 msgstr "वगळलेले विभाजनचे URIs"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:2
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "स्कॅनिंग पासून वगळण्याजोगी विभाजनकरीता URI ची सूची."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:3
 msgid "Active Chart"
 msgstr "ॲक्टिव्ह चार्ट"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:4
 msgid "Which type of chart should be displayed."
 msgstr "कोणत्या प्रकारचे चार्ट दाखवायला हवे."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:5
 msgid "Window size"
 msgstr "पटल आकार"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:6
 msgid "The initial size of the window"
 msgstr "पटलचे सुरूवातीचे आकार"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:7
 msgid "Window state"
 msgstr "पटल स्तर"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.in.h:8
 msgid "The GdkWindowState of the window"
 msgstr "पटलाचे GdkWindowState"
 
@@ -210,8 +210,8 @@ msgid "Failed to show help"
 msgstr "मदत दाखवण्यास अपयशी"
 
 #: ../src/baobab-window.vala:309
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/baobab-window.vala:312
 msgid "A graphical tool to analyze disk usage."
@@ -292,7 +292,7 @@ msgstr "मोठे करा (_i)"
 msgid "Zoom _out"
 msgstr "लहान करा (_o)"
 
-#~ msgid "- Disk Usage Analyzer"
+#~ msgid "- Memory Usage Analyzer"
 #~ msgstr "- डिस्क-वापर विश्लेषक"
 
 #~ msgid "Maximum depth"
@@ -374,7 +374,7 @@ msgstr "लहान करा (_o)"
 #~ msgid "_Allocated Space"
 #~ msgstr "वाटप केलेली जागा (_A)"
 
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "डीस्क वापर विश्लेषक प्राधान्यता"
 
 #~ msgid "Select _devices to include in filesystem scan:"

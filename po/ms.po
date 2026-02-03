@@ -15,16 +15,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in:3
 #: src/baobab-main-window.ui:120 src/baobab-window.vala:310
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Penganalisis Penggunaan Cakera"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Periksa saiz folder dan ruang cakera yang tersedia"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -32,9 +32,9 @@ msgstr ""
 "Sebuah aplikasi ringkas yang memantau penggunaan cakera dan mengawal ruang "
 "yang ada."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -43,44 +43,44 @@ msgstr ""
 "pepohon yang menunjukkan saiz bagi setiap folder, menjadikannya lebih mudah "
 "mengenal pasti ruang cakera yang telah dibazirkan."
 
-#: data/org.gnome.baobab.appdata.xml.in:34
+#: data/freynaldo.baoram.appdata.xml.in:34
 msgid "The GNOME Project"
 msgstr "Projek GNOME"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:6
+#: data/freynaldo.baoram.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr "storan;ruang;pembersihan;"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded partitions URIs"
 msgstr "URI sekatan terasing"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Satu senarai URI untuk sekatan yang diasingkan dari pengimbasan."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Carta Aktif"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Jenis carta apakah yang patut dipaparkan."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Saiz tetingkap"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "Saiz awal bagi tetingkap"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window state"
 msgstr "Keadaan tetingkap"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "The GdkWindowState of the window"
 msgstr "GdkWindowState tetingkap"
 
@@ -179,7 +179,7 @@ msgid "_Help"
 msgstr "_Bantuan"
 
 #: src/baobab-main-window.ui:21
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "Perih_al Penganalisis Penggunaan Cakera"
 
 #: src/baobab-main-window.ui:34 src/menus.ui:7

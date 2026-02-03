@@ -3,14 +3,14 @@ foreach size: ['scalable', 'symbolic']
   install_subdir('icons/hicolor/' + size, install_dir: icondir)
 endforeach
 
-resource_files = files('baobab.gresource.xml')
-resources = gnome.compile_resources('org.gnome.baobab', resource_files, c_name: 'resources')
+resource_files = files('baoram.gresource.xml')
+resources = gnome.compile_resources('freynaldo.baoram', resource_files, c_name: 'resources')
 
-install_man ('baobab.1')
+install_man ('baoram.1')
 
 desktop_file = i18n.merge_file(
-  input: 'org.gnome.baobab.desktop.in',
-  output: 'org.gnome.baobab.desktop',
+  input: 'freynaldo.baoram.desktop.in',
+  output: 'freynaldo.baoram.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
@@ -18,8 +18,8 @@ desktop_file = i18n.merge_file(
 )
 
 appdata_file = i18n.merge_file(
-  input: 'org.gnome.baobab.metainfo.xml.in',
-  output: 'org.gnome.baobab.metainfo.xml',
+  input: 'freynaldo.baoram.metainfo.xml.in',
+  output: 'freynaldo.baoram.metainfo.xml',
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'metainfo'),
@@ -36,7 +36,7 @@ if appstreamcli.found()
 endif
 
 install_data (
-  'org.gnome.baobab.gschema.xml',
+  'freynaldo.baoram.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0', 'schemas')
 )
 
@@ -44,8 +44,8 @@ service_conf = configuration_data ()
 service_conf.set ('bindir', join_paths (get_option('prefix'), get_option('bindir')))
 
 configure_file (
-  input: 'org.gnome.baobab.service.in',
-  output: 'org.gnome.baobab.service',
+  input: 'freynaldo.baoram.service.in',
+  output: 'freynaldo.baoram.service',
   configuration: service_conf,
   install_dir: join_paths(get_option('datadir'), 'dbus-1', 'services')
 )

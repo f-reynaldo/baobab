@@ -25,16 +25,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in.in:3
+#: data/freynaldo.baoram.appdata.xml.in:6 data/freynaldo.baoram.desktop.in.in:3
 #: src/baobab-main-window.ui:44
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analitzador de l'ús dels discs"
 
-#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in.in:4
+#: data/freynaldo.baoram.appdata.xml.in:7 data/freynaldo.baoram.desktop.in.in:4
 msgid "Check folder sizes and available disk space"
 msgstr "Comprova la mida de les carpetes i l'espai disponible al disc"
 
-#: data/org.gnome.baobab.appdata.xml.in:9
+#: data/freynaldo.baoram.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
@@ -42,9 +42,9 @@ msgstr ""
 "Una aplicació simple per mantindre l'ús del disc i l'espai disponible sota "
 "control."
 
-#: data/org.gnome.baobab.appdata.xml.in:12
+#: data/freynaldo.baoram.appdata.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
@@ -53,49 +53,49 @@ msgstr ""
 "mida de cada carpeta, simplificant la identificació d'on es consumeix "
 "l'espai de disc."
 
-#: data/org.gnome.baobab.appdata.xml.in:34
+#: data/freynaldo.baoram.appdata.xml.in:34
 msgid "The GNOME Project"
 msgstr "El projecte GNOME"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in.in:6
+#: data/freynaldo.baoram.desktop.in.in:6
 msgid "storage;space;cleanup;"
 msgstr "emmagatzematge;emmagatzemament;espai;neteja;"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.baobab.desktop.in.in:10
+#: data/freynaldo.baoram.desktop.in.in:10
 msgid "baobab"
 msgstr "baobab"
 
-#: data/org.gnome.baobab.gschema.xml.in:9
+#: data/freynaldo.baoram.gschema.xml.in:9
 msgid "Excluded partitions URIs"
 msgstr "URI de les particions excloses"
 
-#: data/org.gnome.baobab.gschema.xml.in:10
+#: data/freynaldo.baoram.gschema.xml.in:10
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Una llista d'URI de les particions que s'exclouran durant l'escaneig."
 
-#: data/org.gnome.baobab.gschema.xml.in:20
+#: data/freynaldo.baoram.gschema.xml.in:20
 msgid "Active Chart"
 msgstr "Diagrama actiu"
 
-#: data/org.gnome.baobab.gschema.xml.in:21
+#: data/freynaldo.baoram.gschema.xml.in:21
 msgid "Which type of chart should be displayed."
 msgstr "Quin tipus de diagrama s'hauria de mostrar."
 
-#: data/org.gnome.baobab.gschema.xml.in:25
+#: data/freynaldo.baoram.gschema.xml.in:25
 msgid "Window size"
 msgstr "Mida de la finestra"
 
-#: data/org.gnome.baobab.gschema.xml.in:26
+#: data/freynaldo.baoram.gschema.xml.in:26
 msgid "The initial size of the window"
 msgstr "La mida inicial de la finestra"
 
-#: data/org.gnome.baobab.gschema.xml.in:30
+#: data/freynaldo.baoram.gschema.xml.in:30
 msgid "Window state"
 msgstr "Estat de la finestra"
 
-#: data/org.gnome.baobab.gschema.xml.in:31
+#: data/freynaldo.baoram.gschema.xml.in:31
 msgid "The GdkWindowState of the window"
 msgstr "El GdkWindowState de la finestra"
 
@@ -246,8 +246,8 @@ msgid "Failed to show help"
 msgstr "S'ha produït un error en mostrar l'ajuda"
 
 #: src/baobab-window.vala:284
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: src/baobab-window.vala:287
 msgid "A graphical tool to analyze disk usage."

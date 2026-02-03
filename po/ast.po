@@ -22,11 +22,11 @@ msgid "Check folder sizes and available disk space"
 msgstr "Comprobar el tamañu de les carpetes y l'espaciu disponible en discu"
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analizador d'Usu de Discu"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "Preferencies del analizador d'usu de discu"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -38,51 +38,51 @@ msgstr ""
 msgid "_Monitor changes to your home folder"
 msgstr "_Monitorizar cambeos na so carpeta personal"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr ""
 "Una llista de les URIs pa les particiones que se quieran escluyir de "
 "l'escanéu."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr "Gráficu activu"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 msgid "Excluded partitions URIs"
 msgstr "URIs de les particiones escluyíes"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 msgid "Monitor Home"
 msgstr "Monitorizar carpeta personal"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
 msgstr "La barra d'estáu ye visible"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "Barra Ferramientes visible"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr ""
 "Conseña si cualesquier cambéu nel direutoriu personal tien de ser "
 "monitorizáu."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr ""
 "Conseña si la barra d'estáu na estaya inferior de la ventana principal tien "
 "de ser adicable."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr ""
 "Conseña si la barra de ferramientes tien de ser adicable na ventana "
 "principal."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
 msgstr "Qué triba de gráficu hai d'amosar."
 
@@ -549,8 +549,8 @@ msgstr ""
 "Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/callbacks.c:102
 msgid "A graphical tool to analyze disk usage."

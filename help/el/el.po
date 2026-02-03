@@ -27,13 +27,13 @@ msgstr ""
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "text"
-msgid "Disk Usage Analyzer help"
+msgid "Memory Usage Analyzer help"
 msgstr "Αναλυτής χρήσης δίσκου"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "link"
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Αναλυτής χρήσης δίσκου"
 
 #. (itstool) path: credit/name
@@ -53,14 +53,14 @@ msgstr "Ekaterina Gerasimova"
 
 #. (itstool) path: info/desc
 #: C/index.page:24
-msgid "<app>Disk Usage Analyzer</app> is a graphical storage device scanner."
+msgid "<app>Memory Usage Analyzer</app> is a graphical storage device scanner."
 msgstr ""
 "Ο <app>Αναλυτής χρήσης δίσκου</app> είναι μια γραφική εφαρμογή σάρωσης "
 "συσκευών αποθήκευσης."
 
 #. (itstool) path: page/title
 #: C/index.page:29
-msgid "<_:media-1/> Disk Usage Analyzer"
+msgid "<_:media-1/> Memory Usage Analyzer"
 msgstr "<_:media-1/> Αναλυτής χρήσης δίσκου"
 
 #. (itstool) path: section/title
@@ -87,7 +87,7 @@ msgstr "Michael Hill"
 #. (itstool) path: info/desc
 #: C/introduction.page:27
 msgid ""
-"<app>Disk Usage Analyzer</app> is an application which shows you your use of "
+"<app>Memory Usage Analyzer</app> is an application which shows you your use of "
 "storage space using graphs."
 msgstr ""
 "Ο <app>Αναλυτής χρήσης δίσκου</app> είναι μια εφαρμογή που σας εμφανίζει τη "
@@ -101,10 +101,10 @@ msgstr "Εισαγωγή"
 #. (itstool) path: page/p
 #: C/introduction.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> is a graphical application for analysing "
+"<app>Memory Usage Analyzer</app> is a graphical application for analysing "
 "storage device usage. It can be used to scan multiple local or remote "
 "storage devices, including hard disks, SSDs, USB sticks, digital cameras and "
-"memory cards. <app>Disk Usage Analyzer</app> can scan either the <link xref="
+"memory cards. <app>Memory Usage Analyzer</app> can scan either the <link xref="
 "\"scan-file-system\">whole file system</link>, <link xref=\"scan-home\">your "
 "<file>Home</file> directory</link>, <link xref=\"scan-folder\">a specified "
 "folder</link> or <link xref=\"scan-remote\">a remote directory</link>."
@@ -230,7 +230,7 @@ msgstr "Σφάλμα κατά τη σάρωση"
 #: C/problem-permissions.page:23
 msgid ""
 "When scanning you might see a message <gui>Could not scan /… or some of the "
-"folders it contains</gui> at the top of <app>Disk Usage Analyzer</app> "
+"folders it contains</gui> at the top of <app>Memory Usage Analyzer</app> "
 "window. This error appears because you don't have the required permissions "
 "to access some files due to restrictions set on the target system. The files "
 "you can't access won't be used to compute the <link xref=\"pref-view-chart"
@@ -258,7 +258,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/problem-permissions.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> uses command <cmd>du</cmd> to create the "
+"<app>Memory Usage Analyzer</app> uses command <cmd>du</cmd> to create the "
 "detailed view of the use of storage, and needs you have read permission on "
 "files and execute permission of directories."
 msgstr ""
@@ -355,7 +355,7 @@ msgstr "Πώς διαγράφω ένα φάκελο;"
 #: C/question-trash.page:23
 msgid ""
 "You can clear out some space from your computer or a remote file system "
-"using <app>Disk Usage Analyzer</app> by moving folders to <file>Trash</file> "
+"using <app>Memory Usage Analyzer</app> by moving folders to <file>Trash</file> "
 "and deleting them."
 msgstr ""
 "Μπορείτε να εξοικονομήσετε λίγο χώρο από τον υπολογιστή σας ή το "
@@ -522,7 +522,7 @@ msgstr "Σάρωση ενός απομακρυσμένου φακέλου"
 #. (itstool) path: page/p
 #: C/scan-remote.page:33
 msgid ""
-"<app>Disk Usage Analyzer</app> can scan storage devices which are accessible "
+"<app>Memory Usage Analyzer</app> can scan storage devices which are accessible "
 "remotely. To scan the whole file system or any specific folder remotely:"
 msgstr ""
 "Ο <app>Αναλυτής χρήσης δίσκου</app> μπορεί να σαρώσει συσκευές αποθήκευσης "
@@ -597,7 +597,7 @@ msgstr ""
 #~ "κατατμήσεις"
 
 #~ msgid ""
-#~ "<app>Disk Usage Analyzer</app> allows you to scan only the partitions and "
+#~ "<app>Memory Usage Analyzer</app> allows you to scan only the partitions and "
 #~ "storage devices that you have selected in the <gui>Preferences</gui> "
 #~ "dialog. By default, all devices and partitions are selected, but the "
 #~ "application will store your preferences when you close it."
@@ -815,11 +815,11 @@ msgstr ""
 #~ "@@image: 'figures/baobab_ringschart2.png'; "
 #~ "md5=d938ef7e9299de5b304c7654bf14e364"
 
-#~ msgid "Disk Usage Analyzer Manual"
+#~ msgid "Memory Usage Analyzer Manual"
 #~ msgstr "Εγχειρίδιο της Ανάλυσης χρήσης δίσκου"
 
 #~ msgid ""
-#~ "Disk Usage Analyzer is a graphical, menu-driven viewer that you can use "
+#~ "Memory Usage Analyzer is a graphical, menu-driven viewer that you can use "
 #~ "to view and monitor your disk usage and folder structure."
 #~ msgstr ""
 #~ "Η Ανάλυση χρήσης δίσκου είναι ένα πρόγραμμα με γραφικά και μενού, το "
@@ -942,7 +942,7 @@ msgstr ""
 #~ msgid "thesaltydog@gmail.com"
 #~ msgstr "thesaltydog@gmail.com"
 
-#~ msgid "Disk Usage Analyzer Manual 1.0"
+#~ msgid "Memory Usage Analyzer Manual 1.0"
 #~ msgstr "Εγχειρίδιο της Ανάλυσης χρήσης δίσκου, έκδοση 1.0"
 
 #~ msgid "April 2006"
@@ -951,7 +951,7 @@ msgstr ""
 #~ msgid "Emmanuele Bassi <email>ebassi@gmail.com</email>"
 #~ msgstr "Emmanuele Bassi <email>ebassi@gmail.com</email>"
 
-#~ msgid "This manual describes version 2.15 of Disk Usage Analyzer."
+#~ msgid "This manual describes version 2.15 of Memory Usage Analyzer."
 #~ msgstr ""
 #~ "Αυτό το εγχειρίδιο περιγράφει την έκδοση 2.15 της Ανάλυσης χρήσης δίσκου."
 
@@ -959,7 +959,7 @@ msgstr ""
 #~ msgstr "Ανάδραση"
 
 #~ msgid ""
-#~ "To report a bug or make a suggestion regarding the Disk Usage Analyzer "
+#~ "To report a bug or make a suggestion regarding the Memory Usage Analyzer "
 #~ "application or this manual, follow the directions in the <ulink url="
 #~ "\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 #~ msgstr ""

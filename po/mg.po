@@ -25,12 +25,12 @@ msgstr ""
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
 #, fuzzy
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Mpizaha ny fampiasana ny kapila"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
 #, fuzzy
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "Safidy manokan'ny mpizaha ny fampiasana ny kapila"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -43,53 +43,53 @@ msgstr ""
 msgid "_Monitor changes to your home folder"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 #, fuzzy
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Lisitr'ireo tsy tokony ampidirina anatin'ny fizahavana."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 #, fuzzy
 msgid "Excluded partitions URIs"
 msgstr "Ireo fizarana tsy tafiditra"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 #, fuzzy
 msgid "Monitor Home"
 msgstr "_Mpandrindra"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 #, fuzzy
 msgid "Statusbar is Visible"
 msgstr "Miseho ny anjan'ny fivoarana"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "Miseho ny anjan'ny fitaovana"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr ""
 "Mamaritra hoe tokony tantanana izay fanovana atao amin'ny laha-tahirin'ny "
 "fandraisana na tsia. "
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr ""
 "Mamaritra hoe tokony hiseho eo ambanin'ny fikandrana voalohany indrindra ny "
 "anjan'ny fivoarana na tsia."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr ""
 "Mamaritra hoe tokony hiseho eo amin'ny fikandrana voalohany indrindra ny "
 "anjan'ny fitaovana na tsia."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
 msgstr ""
 
@@ -585,8 +585,8 @@ msgid ""
 msgstr ""
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/callbacks.c:102
 #, fuzzy

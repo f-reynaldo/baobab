@@ -24,7 +24,7 @@ msgstr ""
 
 #
 #: ../data/baobab.desktop.in.in.h:1 ../src/baobab-window.vala:152
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Analyse av diskplass"
 
 #
@@ -32,48 +32,48 @@ msgstr "Analyse av diskplass"
 msgid "Check folder sizes and available disk space"
 msgstr "Undersøk mappestorleikar og tilgjengeleg diskplass"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 msgid "Monitor Home"
 msgstr "Overvak heimemappa"
 
 #
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Whether any change to the home directory should be monitored."
 msgstr "Om endringar i heimemappa skal overvakast."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 msgid "Excluded partitions URIs"
 msgstr "Utelatne partisjonar"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr ""
 "Ei liste over adresser (URIar) til partisjonar som er utelatne frå søket."
 
 #
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 msgid "Toolbar is Visible"
 msgstr "Verktøylinja er synleg"
 
 #
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Whether the toolbar should be visible in main window."
 msgstr "Om verktøylinja skal vera synleg i hovudvindauget."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Statusbar is Visible"
 msgstr "Statuslinja er synleg"
 
 #
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr "Om statuslinja nedst i hovudvindauget skal vera synleg."
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Active Chart"
 msgstr "Aktivt diagram"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
 msgstr "Kva slags diagram som skal visast."
 
@@ -311,8 +311,8 @@ msgstr "Vel mappe"
 
 #
 #: ../src/baobab-window.vala:280
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #
 #: ../src/baobab-window.vala:283
@@ -352,7 +352,7 @@ msgid "Could not scan folder \"%s\" or some of the folders it contains."
 msgstr "Klarte ikkje å søka i mappa «%s» eller i somme av mappene inni."
 
 #
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "Innstillingar for diskanalyse"
 
 #

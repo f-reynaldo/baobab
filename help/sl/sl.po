@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Baobab master\n"
+"Project-Id-Version: Baoram master\n"
 "POT-Creation-Date: 2012-03-26 07:41+0000\n"
 "PO-Revision-Date: 2012-03-26 18:33+0200\n"
 "Last-Translator: Andrej Žnidaršič <andrej.znidarsic@gmail.com>\n"
@@ -41,11 +41,11 @@ msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
 #: C/index.page:16(info/desc)
-msgid "<app>Disk Usage Analyzer</app>, a graphical storage device scanner."
+msgid "<app>Memory Usage Analyzer</app>, a graphical storage device scanner."
 msgstr "<app>Orodje za preučevanje porabe diska</app>, grafični preiskovalnik naprav shrambe."
 
 #: C/index.page:21(page/title)
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Orodje za preučevanje porabe diska"
 
 #: C/index.page:24(section/title)
@@ -66,7 +66,7 @@ msgid "Michael Hill"
 msgstr "Michael Hill"
 
 #: C/introduction.page:23(info/desc)
-msgid "<app>Disk Usage Analyzer</app>, also referred to as <app>baobab</app>, graphically represents your use of storage space."
+msgid "<app>Memory Usage Analyzer</app>, also referred to as <app>baobab</app>, graphically represents your use of storage space."
 msgstr "<app>Orodje za preučevanje porabe diska</app>, tudi <app>baobab</app>, grafično predstavi vašo uporabo prostora za hrambo."
 
 #: C/introduction.page:28(page/title)
@@ -74,7 +74,7 @@ msgid "Introduction"
 msgstr "Predstavitev"
 
 #: C/introduction.page:30(page/p)
-msgid "<app>Disk Usage Analyzer</app> is a graphical, menu-driven application for analysing storage device usage. It can be used to scan multiple local or remote storage device (including hard disks, SSDs, USB sticks, digital cameras and memory cards). <app>Disk Usage Analyzer</app> can scan either the <link xref=\"scan-file-system\">whole file system</link> tree, <link xref=\"scan-home\">your <file>Home</file> directory</link>, a <link xref=\"scan-folder\">specific user-requested directory</link> or <link xref=\"scan-remote\">a remote folder</link>."
+msgid "<app>Memory Usage Analyzer</app> is a graphical, menu-driven application for analysing storage device usage. It can be used to scan multiple local or remote storage device (including hard disks, SSDs, USB sticks, digital cameras and memory cards). <app>Memory Usage Analyzer</app> can scan either the <link xref=\"scan-file-system\">whole file system</link> tree, <link xref=\"scan-home\">your <file>Home</file> directory</link>, a <link xref=\"scan-folder\">specific user-requested directory</link> or <link xref=\"scan-remote\">a remote folder</link>."
 msgstr "<app>Preučevalnik porabe diska</app> je grafični program za preučevanje porabe prostora na napravah shrambe. Uporabite ga lahko za preiskavo več krajevnih ali oddaljenih naprav shramb (vključno s trdimi diski, SSD-ji, ključi USB , digitalnimi fotoaparati in spominskimi karticami). <app>Preučevalnik porabe diska</app> lahko preišče <link xref=\"scan-file-system\">celoten datotečni sistem</link>, <link xref=\"scan-home\">vašo <file>Domačo</file> mapo</link>,  <link xref=\"scan-folder\">uporabniško določeno mapo</link> ali <link xref=\"scan-remote\">oddaljeno mapo</link>."
 
 #: C/pref.page:13(info/desc)
@@ -86,7 +86,7 @@ msgid "Disable scanning of individual storage devices and partitions"
 msgstr "Onemogoči preiskovanje posameznih naprav shrambe in razdelkov"
 
 #: C/pref.page:20(page/p)
-msgid "<app>Disk Usage Analyzer</app> allows you to scan only the partitions and storage devices that you have selected in the <gui>Preferences</gui> dialog. By default, all devices and partitions are selected, but the application will store your preferences when you close it."
+msgid "<app>Memory Usage Analyzer</app> allows you to scan only the partitions and storage devices that you have selected in the <gui>Preferences</gui> dialog. By default, all devices and partitions are selected, but the application will store your preferences when you close it."
 msgstr "<app>Orodje preiskovanja uporabe diska</app>  vam omogča preiskovanje zgolj tistih particij in naprav shrambe, ki ste jih izbrali v oknu <gui>Možnosti</gui>. Privzeto so izbrane vse naprave in razdelki, ampak program bo shranil vaše možnosti, ko ga boste zaprli."
 
 #: C/pref.page:27(item/p)
@@ -244,7 +244,7 @@ msgid "Scan a remote folder"
 msgstr "Preišči oddaljeno mapo"
 
 #: C/scan-remote.page:28(page/p)
-msgid "<app>Disk Usage Analyzer</app> can scan storage devices which are accessible remotely. To scan the whole file system or any specific folder remotely:"
+msgid "<app>Memory Usage Analyzer</app> can scan storage devices which are accessible remotely. To scan the whole file system or any specific folder remotely:"
 msgstr "<app>Orodje za preučevanje porabe diska</app> lahko preišče naprave shrambe, ki so dostopne na daljavo. Za preiskovanje oddaljenega celotnega datotečnega sistema ali izbrane mape:"
 
 #: C/scan-remote.page:34(item/p)

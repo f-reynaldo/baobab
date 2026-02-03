@@ -27,11 +27,11 @@ msgid "Check folder sizes and available disk space"
 msgstr "ফোল্ডারের মাপ ও ডিস্কে বিদ্যমান স্থান পরীক্ষা করা হবে"
 
 #: ../data/baobab.desktop.in.in.h:2 ../data/baobab-main-window.ui.h:2
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "ডিস্ক ব্যবহারের বিশ্লেষণ ব্যবস্থা"
 
 #: ../data/baobab-preferences-dialog.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
+msgid "Memory Usage Analyzer Preferences"
 msgstr "ডিস্ক ব্যবহারের বিশ্লেষণ ব্যবস্থা সংক্রান্ত পছন্দ"
 
 #: ../data/baobab-preferences-dialog.ui.h:2
@@ -43,45 +43,45 @@ msgid "_Monitor changes to your home folder"
 msgstr "হোম ফোল্ডারের সকল পরিবর্তন পর্যবেক্ষণ করুন (_M)"
 
 # Translated by sadia
-#: ../data/org.gnome.baobab.gschema.xml.in.h:1
+#: ../data/freynaldo.baoram.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "পার্টিশানের জন্য স্ক্যান করার সময় বাদ দিতে হবে এমন URI-র তালিকা।"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:2
+#: ../data/freynaldo.baoram.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr ""
 
 # Translated by sadia
-#: ../data/org.gnome.baobab.gschema.xml.in.h:3
+#: ../data/freynaldo.baoram.gschema.xml.in.h:3
 msgid "Excluded partitions URIs"
 msgstr "বাদ দেয়া পার্টিশানের URI "
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:4
+#: ../data/freynaldo.baoram.gschema.xml.in.h:4
 msgid "Monitor Home"
 msgstr ""
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:5
+#: ../data/freynaldo.baoram.gschema.xml.in.h:5
 #, fuzzy
 msgid "Statusbar is Visible"
 msgstr "স্ট্যাটাস-বার দৃশ্যমান"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:6
+#: ../data/freynaldo.baoram.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
 msgstr "টুল-বার দৃশ্যমান"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:7
+#: ../data/freynaldo.baoram.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
 msgstr "ব্যক্তিগত ডিরেক্টরির মধ্যে কোনো পরিবর্তন পর্যবেক্ষন করা হবে কি না।"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:8
+#: ../data/freynaldo.baoram.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr "প্রধান উইন্ডোর নিম্নাংশে স্ট্যাটাস-বার দৃশ্যমান হবে কি না।"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:9
+#: ../data/freynaldo.baoram.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
 msgstr "প্রধান উইন্ডোর নিম্নাংশে টুল-বার দৃশ্যমান হবে কি না।"
 
-#: ../data/org.gnome.baobab.gschema.xml.in.h:10
+#: ../data/freynaldo.baoram.gschema.xml.in.h:10
 #, fuzzy
 msgid "Which type of chart should be displayed."
 msgstr "সাইড-বার দৃশ্যমান হবে কি না"
@@ -549,8 +549,8 @@ msgstr ""
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #: ../src/callbacks.c:101
-msgid "Baobab"
-msgstr "Baobab"
+msgid "Baoram"
+msgstr "Baoram"
 
 #: ../src/callbacks.c:102
 msgid "A graphical tool to analyze disk usage."

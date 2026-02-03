@@ -1,4 +1,4 @@
-# Basqur translation for Baobab
+# Basqur translation for Baoram
 # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the baobab package.
 #
@@ -22,75 +22,75 @@ msgstr "Project-Id-Version: gdm master\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Project-Style: gnome\n"
 
-#: data/org.gnome.baobab.desktop.in:2 data/org.gnome.baobab.metainfo.xml.in:6
+#: data/freynaldo.baoram.desktop.in:2 data/freynaldo.baoram.metainfo.xml.in:6
 #: data/ui/baobab-main-window.ui:35 src/baobab-window.vala:262
-msgid "Disk Usage Analyzer"
+msgid "Memory Usage Analyzer"
 msgstr "Disko-erabileraren analizatzailea"
 
-#: data/org.gnome.baobab.desktop.in:3 data/org.gnome.baobab.metainfo.xml.in:7
+#: data/freynaldo.baoram.desktop.in:3 data/freynaldo.baoram.metainfo.xml.in:7
 msgid "Check folder sizes and available disk space"
 msgstr "Egiaztatu karpeten tamainak eta diskoan dagoen leku erabilgarria"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.baobab.desktop.in:5
+#: data/freynaldo.baoram.desktop.in:5
 msgid "storage;space;cleanup;"
 msgstr "biltegia;lekua;garbitu;"
 
-#: data/org.gnome.baobab.metainfo.xml.in:9
+#: data/freynaldo.baoram.metainfo.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr "Diskoaren erabilpena eta leku librea kontrol pean mantentzeko aplikazio xume bat."
 
-#: data/org.gnome.baobab.metainfo.xml.in:12
+#: data/freynaldo.baoram.metainfo.xml.in:12
 msgid ""
-"Disk Usage Analyzer can scan specific folders, storage devices and online "
+"Memory Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr "Diskoaren erabilpenaren aztertzaileak karpeta zehatzak, biltegiratze-gailuak eta lineako kontuak analiza ditzake. karpeta bakoitzaren tamaina erakusten dituzten zuhaitzak eta adierazpen grafikoak eskaintzen ditu, diskoaren zer leku xahutzen den modu erraz baten identifikatzeko."
 
-#: data/org.gnome.baobab.metainfo.xml.in:20
+#: data/freynaldo.baoram.metainfo.xml.in:20
 msgid "Devices and Locations View"
 msgstr "Gailuen eta kokalekuen ikuspegia"
 
-#: data/org.gnome.baobab.metainfo.xml.in:24
+#: data/freynaldo.baoram.metainfo.xml.in:24
 msgid "Scan View"
 msgstr "Eskaneatze-ikuspegia"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.baobab.metainfo.xml.in:41 src/baobab-window.vala:264
+#: data/freynaldo.baoram.metainfo.xml.in:41 src/baobab-window.vala:264
 msgid "The GNOME Project"
 msgstr "GNOME proiektua"
 
-#: data/org.gnome.baobab.gschema.xml:9
+#: data/freynaldo.baoram.gschema.xml:9
 msgid "Excluded locations URIs"
 msgstr "Kanpoan utzitako kokalekuenURIak"
 
-#: data/org.gnome.baobab.gschema.xml:10
+#: data/freynaldo.baoram.gschema.xml:10
 msgid "A list of URIs for locations to be excluded from scanning."
 msgstr "Eskaneatzetik kanpo utziko diren kokalekuen URIen zerrenda."
 
-#: data/org.gnome.baobab.gschema.xml:20
+#: data/freynaldo.baoram.gschema.xml:20
 msgid "Active Chart"
 msgstr "Aktibatu diagrama"
 
-#: data/org.gnome.baobab.gschema.xml:21
+#: data/freynaldo.baoram.gschema.xml:21
 msgid "Which type of chart should be displayed."
 msgstr "Zer diagrama mota bistaratuko den."
 
-#: data/org.gnome.baobab.gschema.xml:25
+#: data/freynaldo.baoram.gschema.xml:25
 msgid "Window size"
 msgstr "Leihoaren tamaina"
 
-#: data/org.gnome.baobab.gschema.xml:26
+#: data/freynaldo.baoram.gschema.xml:26
 msgid "The initial size of the window"
 msgstr "Leihoaren hasierako tamaina"
 
-#: data/org.gnome.baobab.gschema.xml:30
+#: data/freynaldo.baoram.gschema.xml:30
 msgid "Window Maximized"
 msgstr "Leihoa maximizatuta"
 
-#: data/org.gnome.baobab.gschema.xml:31
+#: data/freynaldo.baoram.gschema.xml:31
 msgid "Whether or not the window is maximized"
 msgstr "Leihoa maximizatuta dagoen ala ez"
 
@@ -167,7 +167,7 @@ msgid "_Help"
 msgstr "_Laguntza"
 
 #: data/ui/baobab-main-window.ui:29
-msgid "_About Disk Usage Analyzer"
+msgid "_About Memory Usage Analyzer"
 msgstr "Disko-erabileraren analizatzaileari _buruz"
 
 #: data/ui/baobab-main-window.ui:45 src/baobab-window.vala:584
@@ -439,8 +439,8 @@ msgstr "”%s” ez da baliozko karpeta"
 #~ msgid "Failed to show help"
 #~ msgstr "Huts egin du laguntza erakustean"
 
-#~ msgid "Baobab"
-#~ msgstr "Baobab"
+#~ msgid "Baoram"
+#~ msgstr "Baoram"
 
 #~ msgid "Could not scan some of the folders contained in “%s”"
 #~ msgstr "Ezin izan dira ”%s”(e)ko  azpikarpeta batzuk aztertu."
@@ -507,7 +507,7 @@ msgstr "”%s” ez da baliozko karpeta"
 #~ msgstr "Tolestu _dena"
 
 #
-#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgid "Memory Usage Analyzer Preferences"
 #~ msgstr "Disko-erabileraren analizatzailearen hobespenak"
 
 #~ msgid "Select _devices to include in file system scan:"
