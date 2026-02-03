@@ -252,12 +252,24 @@ namespace Baobab {
                     string info = "";
 
                     for (int i = 1; i < args.length; i++) {
-                        if (args[i] == "" || args[i].has_prefix ("-")) continue;
-                        // Some arguments are long paths, take the basename
                         string arg = args[i];
+                        if (arg == "") continue;
+
+                        if (arg.has_prefix ("--type=")) {
+                            info = arg.substring (7);
+                            break;
+                        }
+
+                        if (arg.has_prefix ("-")) continue;
+
+                        // Some arguments are long paths, take the basename
                         if (arg.contains ("/")) {
                             arg = Path.get_basename (arg);
                         }
+
+                        // Ignore common interpreter names
+                        if (arg == "python" || arg == "python3" || arg == "node" || arg == "sh" || arg == "bash") continue;
+
                         if (arg != "" && arg != comm) {
                             info = arg;
                             break;
