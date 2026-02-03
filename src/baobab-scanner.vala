@@ -245,34 +245,47 @@ namespace Baobab {
 
 
         string get_process_display_name (string pid, string comm) {
-            string cmdline_content;
+            string contents;
+            size_t length;
             try {
-                if (FileUtils.get_contents ("/proc/%s/cmdline".printf (pid), out cmdline_content)) {
-                    string[] args = cmdline_content.split ("\0");
+                if (FileUtils.get_contents ("/proc/%s/cmdline".printf (pid), out contents, out length)) {
                     string info = "";
+                    string current_arg = "";
+                    bool first = true;
 
-                    for (int i = 1; i < args.length; i++) {
-                        string arg = args[i];
-                        if (arg == "") continue;
+                    for (int i = 0; i <= (int)length; i++) {
+                        char c = (i < (int)length) ? contents[i] : '\0';
+                        if (c == '\0') {
+                            if (first) {
+                                first = false;
+                                current_arg = "";
+                                if (i == (int)length) break;
+                                continue;
+                            }
 
-                        if (arg.has_prefix ("--type=")) {
-                            info = arg.substring (7);
-                            break;
-                        }
+                            if (current_arg != "") {
+                                if (current_arg.has_prefix ("--type=")) {
+                                    info = current_arg.substring (7);
+                                    break;
+                                }
 
-                        if (arg.has_prefix ("-")) continue;
+                                if (!current_arg.has_prefix ("-")) {
+                                    string arg = current_arg;
+                                    if (arg.contains ("/")) {
+                                        arg = Path.get_basename (arg);
+                                    }
 
-                        // Some arguments are long paths, take the basename
-                        if (arg.contains ("/")) {
-                            arg = Path.get_basename (arg);
-                        }
-
-                        // Ignore common interpreter names
-                        if (arg == "python" || arg == "python3" || arg == "node" || arg == "sh" || arg == "bash") continue;
-
-                        if (arg != "" && arg != comm) {
-                            info = arg;
-                            break;
+                                    // Ignore common interpreter names
+                                    if (arg != "python" && arg != "python3" && arg != "node" && arg != "sh" && arg != "bash" && arg != "" && arg != comm) {
+                                        info = arg;
+                                        break;
+                                    }
+                                }
+                            }
+                            current_arg = "";
+                            if (i == (int)length) break;
+                        } else {
+                            current_arg += c.to_string();
                         }
                     }
 
